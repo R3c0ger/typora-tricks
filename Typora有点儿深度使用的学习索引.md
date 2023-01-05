@@ -19,6 +19,8 @@ typora-root-url: /assets/
 
 我所使用的编辑器是Typora，版本为1.0.4，操作系统为win10。
 
+源文件已上传至Github：https://github.com/R3c0ger/A-learning-index-of-Typora-with-a-little-bit-using-depth
+
 ## Markdown相关网站
 
 ### 学习网站
@@ -258,6 +260,8 @@ $$
 $$
 $a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$	这样整行。可以定义个新命令统合一下。
 
+更新：其实不太行，重新打开一遍该md文件就会崩掉，只有删掉`\label{}`再添加回来、再动一下引用该公式的内容才行，心累。知乎上也根本用不了这个。
+
 ```latex
 $$
 \textbf{一得阁拉米娜}\tag{f}\label{f}
@@ -269,8 +273,7 @@ $a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$
 
 $\def\ds{\displaystyle}
 \def\BOX#1{\fbox{$\ds #1$}}
-\def\pt#1{\phantom{#1}}
-$定义在左边，光标一放就显示了。
+\def\pt#1{\phantom{#1}} $定义在左边，光标一放就显示了。
 
 ```latex
 $\def\ds{\displaystyle}
@@ -501,8 +504,6 @@ $$
 \end{CD}
 ```
 
-
-
 $$
 \require{AMDcd}
 \begin{CD}
@@ -517,7 +518,7 @@ $$
 \end{CD}
 ```
 
-以上来自于[MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)、[在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)。只能说，MathJax is *not* LaTeX，这效果一言难尽。
+以上来自于[MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)、[在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)。只能说，MathJax is *not* LaTeX，这效果一言难尽（知乎效果反而比Typora好......）。
 
 ## HTML
 
@@ -544,4 +545,4 @@ $$
 
 -----
 
-烦请大家多多指教！
+恳请大家多多指教！
