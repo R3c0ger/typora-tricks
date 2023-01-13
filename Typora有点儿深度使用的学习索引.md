@@ -105,11 +105,11 @@ typora-root-url: /assets/
 
 上面这个代码控制的（好像）是列表的缩进距离，我对这个主题的列表缩进距离不太满意，就加了这么一段。未添加这一段之前是这样的：（后续的样式我也改了一点，但是不影响这段代码的效果）
 
-![2.1.0_1](/2.1.0_1.png)
+![2.1.0_1](/assets/2.1.0_1.png)
 
 添加了这一段之后：
 
-![2.1.0_2](/2.1.0_2.png)
+![2.1.0_2](assets/2.1.0_2.png)
 
 ### 下划线
 
@@ -127,7 +127,7 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 
 <u>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</u>
 
-![2.2.0_1](2.2.0_1.png)
+![2.2.0_1](/assets/2.2.0_1.png)
 
 上图为`padding`那一行第三个数据调为0px和1px的区别，文字是对齐的。下划线的粗细设成1.5px是很对我的口味的。
 
@@ -178,7 +178,7 @@ ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？
 
 （1）在偏好设置中我一般这么整：
 
-![pic1](/pic1.png)
+![pic1](/assets/pic1.png)
 
 （2）YAML front matters 也能方便我们将图片放在md文件所在的同一文件夹下，这样我们添加图片的时候，直接写相对路径即可。
 
@@ -206,6 +206,8 @@ typora-root-url: ./assets/
 ```
 
 （水文章是吧）
+
+最终尝试，发现直接在引用图片的地方只写相对路径最保险，比如我这里将图片存在assets文件夹中，引用图片时不写`![pic1](/pic1.png)`而是写`![pic1](/assets/pic1.png)`，似乎只有这样可行。
 
 ### 图片位置
 
