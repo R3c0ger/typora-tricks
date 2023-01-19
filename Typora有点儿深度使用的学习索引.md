@@ -1,10 +1,6 @@
----
-typora-root-url: /assets/
----
 # Typora有点儿深度使用的学习索引
 
 [TOC]
-
 ## 前言
 
 > 因为Markdown这个语言很尴尬，再往上一点，哎，$\LaTeX$，可能有点实力，还能操作一下；再往下，Microsoft Office *Word*，人家就纯属所见即所得的，自己也知道自己格式需要调整。但Markdown？上不去又下不来。它觉得Word不配和自己放一块，但是呢，它想上去，它又上不去，想操作又操作不起来，卡在这儿了，掉下去了又不值得。 
@@ -25,75 +21,67 @@ typora-root-url: /assets/
 
 ### 学习网站
 
-#### Markdown语法介绍
+#### Markdown语法学习
 
-[Markdown 入门教程](https://www.imooc.com/wiki/markdownlesson)
-
-[markdown语法大全](https://www.cnblogs.com/miki-peng/p/12502985.html)：这篇文章不仅很全，而且记录了很多很多颜色和Emoji。
-
-[MarkDown高阶语法手册](https://mp.weixin.qq.com/s/L9WI8zMlPWdqUsyh36vUhA)
-
-[Typora 完全使用详解](https://sspai.com/post/54912/)
+- [Markdown 入门教程](https://www.imooc.com/wiki/markdownlesson)
+- [markdown语法大全](https://www.cnblogs.com/miki-peng/p/12502985.html)：这篇文章不仅很全，而且记录了很多很多颜色和Emoji。
+- [MarkDown高阶语法手册](https://mp.weixin.qq.com/s/L9WI8zMlPWdqUsyh36vUhA)
+- [Typora 完全使用详解](https://sspai.com/post/54912/)
+- [Typora进阶学习](https://www.jianshu.com/p/28d321ffddac)
 
 #### Typora支持MathJax公式书写
 
-[MarkDown公式指导手册](https://www.jianshu.com/p/53cc67f6c832)
+- [MarkDown公式指导手册](https://www.jianshu.com/p/53cc67f6c832)
+- [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)
 
-[MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)
+- [Typora中一些常用的latex公式](https://www.jianshu.com/p/8fed0e1a9692)
 
-[Typora中一些常用的latex公式](https://www.jianshu.com/p/8fed0e1a9692)
+- [【Typora】超全数学公式全集（没错，你想要的就在这里）](https://zhuanlan.zhihu.com/p/165342174)
 
-[【Typora】超全数学公式全集（没错，你想要的就在这里）](https://zhuanlan.zhihu.com/p/165342174)
+- [在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)
 
-[在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)
+- [TeX 的宏 \ 第一集](http://garfileo.is-programmer.com/2010/5/21/macro-of-tex.18296.html)
 
-[TeX 的宏 \ 第一集](http://garfileo.is-programmer.com/2010/5/21/macro-of-tex.18296.html)
-
-[TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)
+- [TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)
 
 #### Typora同样支持Mermaid
 
-[About Mermaid](https://mermaid.js.org/intro/)：Mermaid官网，可以直接开始学习。
-
-[一款优雅的流程图利器-Mermaid 使用指南](https://blog.csdn.net/qq_42818403/article/details/122599306)：这个么，好像类似于官网的翻译。
+- [About Mermaid](https://mermaid.js.org/intro/)：Mermaid官网，可以直接开始学习。
+- [一款优雅的流程图利器-Mermaid 使用指南](https://blog.csdn.net/qq_42818403/article/details/122599306)：这个么，好像类似于官网的翻译。
 
 #### 有关Typora的样式修改
 
-[Typora任意更改样式](https://blog.csdn.net/weixin_45817496/article/details/115867361)
+- [Typora任意更改样式](https://blog.csdn.net/weixin_45817496/article/details/115867361)
+- [自定义Typora的样式(更新1 2021-7-14)](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)
 
-[自定义Typora的样式(更新1 2021-7-14)](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)
-
-[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme)
+- [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme)
 
 #### 其他杂项
 
-[Typora快捷键汇总](https://zhuanlan.zhihu.com/p/592538886)
+- [Typora快捷键汇总](https://zhuanlan.zhihu.com/p/592538886)
+- [Typora快捷键设置](http://events.jianshu.io/p/4d8f04352dc8)
 
-[Typora快捷键设置](http://events.jianshu.io/p/4d8f04352dc8)
+- [typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)
 
-[typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)
+- [markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
 
-[markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
-
-[Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
+- [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
 
 ### 工具网站
 
-[Mermaid~v9.3.0~ Live Editor](https://mermaid.live/edit#pako:eNptkLFugzAQhl_FubUGGQwBe0hVqUNTqVO3isWCIyCBnTq2Wop49xpot3g6-b7v193NUJsGQcINPz3qGp97dbFqrDQJ72noa4xOp4dX02lJXnAYDFlrSjrzRZRFMhn_eBfesVrpFSEdKktG_EPXXhTQaHNCcL_blJw3Y6ODdriPn0mLOJCLReUOQGFEO6q-CVvMq1CB63DECmQoG2yVH1wFlV4Cqrwz75OuQTrrkYK_Nsr9Lw2yVcMt_GLTO2Pf9stsB6JwVRrkDN8gMxHnQpSZKBgTaVHwjMIEMhGxyIoyK_jxyDlnrFwo_BgTYpM4LQRLRCqynJVlzviW97E110GWX5I8d18)：在线编辑各种Mermaid图，好像还是得自己手动敲代码......
+- [Mermaid~v9.3.0~ Live Editor](https://mermaid.live/edit#pako:eNptkLFugzAQhl_FubUGGQwBe0hVqUNTqVO3isWCIyCBnTq2Wop49xpot3g6-b7v193NUJsGQcINPz3qGp97dbFqrDQJ72noa4xOp4dX02lJXnAYDFlrSjrzRZRFMhn_eBfesVrpFSEdKktG_EPXXhTQaHNCcL_blJw3Y6ODdriPn0mLOJCLReUOQGFEO6q-CVvMq1CB63DECmQoG2yVH1wFlV4Cqrwz75OuQTrrkYK_Nsr9Lw2yVcMt_GLTO2Pf9stsB6JwVRrkDN8gMxHnQpSZKBgTaVHwjMIEMhGxyIoyK_jxyDlnrFwo_BgTYpM4LQRLRCqynJVlzviW97E110GWX5I8d18)：在线编辑各种Mermaid图，好像还是得自己手动敲代码......
+- [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/)：画表格的；
 
-[Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/)：画表格的；
+- [Convert Excel to LaTeX Table](https://tableconvert.com/excel-to-latex)：把Excel转为$\LaTeX$表格的。
 
-[Convert Excel to LaTeX Table](https://tableconvert.com/excel-to-latex)：把Excel转为$\LaTeX$表格的。
-
-[quiver: a modern commutative diagram editor](https://q.uiver.app/)：画交换图的，Typora里面好像还不能画曲线什么的......
-
-[在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/##)
+- [quiver: a modern commutative diagram editor](https://q.uiver.app/)：画交换图的，Typora里面好像还不能画曲线，只能画直箭头什么的......
+- [在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/##)
 
 ## 样式
 
 我现在使用的是[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)的自己魔改的样式，这个样式目前小问题有点多，但是不耽误使用，而且还是很好看的，反正我已经star了。
 
-接下来我要说的就是我的一些魔改的地方。这些魔改是在[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。我妹学过css啥的，下面要么是抄的，要么是<kbd>shift</kbd>+<kbd>F12</kbd>找出来的。
+接下来我要说的就是我的一些魔改的地方。这些魔改是在[上面提到的伪装LaTeX主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)及其[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。我妹学过css啥的，下面要么是抄的，要么是<kbd>shift</kbd>+<kbd>F12</kbd>找出来的。
 
 ### 列表
 
@@ -105,7 +93,7 @@ typora-root-url: /assets/
 
 上面这个代码控制的（好像）是列表的缩进距离，我对这个主题的列表缩进距离不太满意，就加了这么一段。未添加这一段之前是这样的：（后续的样式我也改了一点，但是不影响这段代码的效果）
 
-![2.1.0_1](/assets/2.1.0_1.png)
+![2.1.0_1](assets/2.1.0_1.png)
 
 添加了这一段之后：
 
@@ -127,7 +115,7 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 
 <u>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</u>
 
-![2.2.0_1](/assets/2.2.0_1.png)
+![2.2.0_1](assets/2.2.0_1.png)
 
 上图为`padding`那一行第三个数据调为0px和1px的区别，文字是对齐的。下划线的粗细设成1.5px是很对我的口味的。
 
@@ -141,6 +129,82 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
   } 
 }/*PDF中超链接这块的代码，看不懂，不会用（）*/
 ```
+
+2023.1.18更新：其实修改超链接的下划线和修改文本下划线实际上是一样的，只要改border-xxx就行了......
+
+### 对齐
+
+2023.1.18 后来我还是换回了github主题......当然主题是我魔改过的！会发到仓库里去的！
+
+首先是标题的对齐，一二级整了个居中，如下图：
+
+![3.3](assets/3.3.png)
+
+当然，大家也可以看到，最后一行那里，我把一二级标题下边的下划线搞掉了。
+
+其次是正文内容的对齐，在默认样式中，正文是左对齐，右边就会犬牙交错参差不齐，我就给改了，在css文件中添加这么一段：
+
+```css
+#write p {
+  text-align: justify;
+  /*正文内容两端对齐*/
+}
+```
+
+| 值      | 描述                                       |
+| ------- | ------------------------------------------ |
+| left    | 把文本排列到左边。默认值：由浏览器决定。   |
+| right   | 把文本排列到右边。                         |
+| center  | 把文本排列到中间。                         |
+| justify | 实现两端对齐文本效果。                     |
+| inherit | 规定应该从父元素继承 text-align 属性的值。 |
+
+### 目录相关
+
+首先，我把目录的padding-bottom给敲掉了（话说明明是底部填充，可为什么表现出来的是左填充呢？）（pad长并感）
+
+```css
+.md-toc { 
+  margin-top:20px;
+  /*padding-bottom:20px;*//*目录左填充*/
+}
+```
+
+然后，我尝试设置了目录后分页和两栏目录：
+
+```CSS
+.md-toc-content {
+  margin-left: 2em;
+  /* 修复缺失上级标题时无法递增 */
+  counter-reset: toc-h2 toc-h3 toc-h4;
+    column-count: 2 !important;
+    column-gap: 25px !important;
+    column-width: 8cm !important;
+    column-rule: solid 1px !important;
+    display: inline-block !important;
+    /*只对浏览器屏幕有效果，对PDF无效*/
+}
+```
+
+但是目录分栏只对编辑器有效而不对导出的PDF有效，同样分页也无效。下图是预期效果。
+
+![image-20230119120227716](assets/image-20230119120227716.png)
+
+所以，这个.md-toc-content到底该怎么修改？进入开发者模式（Shift+F12）可以看到：
+
+![image-20230119120142694](assets/image-20230119120142694.png)
+
+难道......用列表生成的目录没法改样式？
+
+2023.1.19更新：但是我先解决了其中一个需求——目录后断页，我的方法是，设置二级标题前断页。我本来想待会添加这个功能的，只能说幸好目录里的这一项没起作用，要不然目录后面得白白空一页出来。
+
+```css
+h2 {
+    page-break-before: always !important;
+}
+```
+
+但是分栏始终无法成功。分栏的代码移动到.md-toc块中也不行，这样编辑器中目录的第一项还会空一行。
 
 ## 快捷键
 
@@ -178,7 +242,7 @@ ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？
 
 （1）在偏好设置中我一般这么整：
 
-![pic1](/assets/pic1.png)
+![pic1](assets/pic1.png)
 
 （2）YAML front matters 也能方便我们将图片放在md文件所在的同一文件夹下，这样我们添加图片的时候，直接写相对路径即可。
 
@@ -207,7 +271,13 @@ typora-root-url: ./assets/
 
 （水文章是吧）
 
-最终尝试，发现直接在引用图片的地方只写相对路径最保险，比如我这里将图片存在assets文件夹中，引用图片时不写`![pic1](/pic1.png)`而是写`![pic1](/assets/pic1.png)`，似乎只有这样可行。
+~~最终尝试，发现直接在引用图片的地方只写相对路径最保险，比如我这里将图片存在assets文件夹中，引用图片时不写`![pic1](/pic1.png)`而是写`![pic1](/assets/pic1.png)`，似乎只有这样可行。~~
+
+2023.1.18更新：上面一段所提到的方法仍然无法防止第二次打开文档时图片崩掉，所以我删去了开头的YAML front matters，添加图片时仍写相对路径，但修改了Typora的设置：
+
+![image-20230118173839602](assets/image-20230118173839602.png)
+
+目前这样的操作能解决问题。
 
 ### 图片位置
 
