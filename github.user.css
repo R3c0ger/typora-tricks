@@ -659,3 +659,16 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
     border-style: solid;
     padding: 0 0 0px 0; /*下划线与文字距离*/
   }  
+
+.footnotes-area .footnote-line { /*尾注字体*/
+  color: var(--text-color);
+  font-size: var(--base-font-size);
+}
+.footnotes-area hr {
+  height: 0px !important; /*尾注上分割线的粗细*/
+  border: 0;
+  color: #00000000;
+}
+.reversefootnote{ /*修改返回按钮的样式，不搞emoji*/
+  font-family:"Latin Modern Roman", "Latin Modern Roman 10" !important;
+}
