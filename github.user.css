@@ -458,24 +458,37 @@ h6.md-focus:before {
     opacity: 1;
 }
 
+/* 目录 */
 .md-toc { 
     margin-top:20px;
     /*padding-bottom:20px;*//*目录左填充*/
+  text-align: center;
 }
 
-
-
-/* 目录 */
 .md-toc-content {
-  margin-left: 2em;
+  /* margin-left: 2em; */
   /* 修复缺失上级标题时无法递增 */
   counter-reset: toc-h2 toc-h3 toc-h4;
   column-count: 2 !important;
   column-gap: 25px !important;
-  column-width: 8cm !important;
+  /* column-width: 7.1cm !important; */
   column-rule: solid 1px !important;
   display: inline-block !important;
-  /*只对浏览器屏幕有效果，对PDF无效*/
+}
+
+@media screen {
+  .md-toc-content {
+    column-width: 8.2cm !important;
+    column-rule: solid 1px !important;
+    display: inline-block !important;
+  }
+}
+@media print {
+  .md-toc-content {
+    column-width: 7.1cm !important;
+    column-rule: solid 1px !important;
+    display: inline-block !important;
+  }
 }
 
 .md-toc-inner {
@@ -485,7 +498,6 @@ h6.md-focus:before {
 
 .md-toc-item {
   color: var(--text-color) !important;
-  
 }
 /* 目录标题内容属性 */
 .md-toc-h2,
@@ -498,7 +510,7 @@ h6.md-focus:before {
 }
 
 .md-toc-h2 {
-  font-weight: var(--strong-weight);
+  font-weight: bolder;
 }
 
 /* 目录标题前 */
@@ -522,7 +534,7 @@ h6.md-focus:before {
   counter-increment: toc-h2;
   content: counter(toc-h2);
   margin-right: 1rem;
-  font-weight: var(--strong-weight);
+  font-weight: bolder;
 }
 .md-toc-content .md-toc-h3:before {
   counter-increment: toc-h3;

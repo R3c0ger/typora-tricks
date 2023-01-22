@@ -206,6 +206,70 @@ h2 {
 
 但是分栏始终无法成功。分栏的代码移动到.md-toc块中也不行，这样编辑器中目录的第一项还会空一行。
 
+2023.1.22更新：**成功了！**
+
+上述分栏代码中`column-width`一项，不能过宽，一旦过宽无论是浏览器还是PDF都无法正常显示双栏。铸币的是，我修改的css样式里面screen和print的左右边距并不同，margin、paddings已经被我改得乱七八糟，算了半天没算出来column-width该设多少，inherit好像也用不了吧，只好一点一点试出来了。另外，我还直接设置目录居中，省得搞什么左边距的麻烦事了。以下是代码：
+
+```css
+/* 目录 */
+.md-toc { 
+    margin-top:20px;
+    /*padding-bottom:20px;*//*目录左填充*/
+  text-align: center;
+}
+
+.md-toc-content {
+  /* margin-left: 2em; */
+  /* 修复缺失上级标题时无法递增 */
+  counter-reset: toc-h2 toc-h3 toc-h4;
+  column-count: 2 !important;
+  column-gap: 25px !important;
+  /* column-width: 7.1cm !important; */
+  column-rule: solid 1px !important;
+  display: inline-block !important;
+}
+
+@media screen {
+  .md-toc-content {
+    column-width: 8.2cm !important;
+    column-rule: solid 1px !important;
+    display: inline-block !important;
+  }
+}
+@media print {
+  .md-toc-content {
+    column-width: 7.1cm !important;
+    column-rule: solid 1px !important;
+    display: inline-block !important;
+  }
+}
+```
+
+### 尾注
+
+尾注字体搞成和正文一样的了。
+
+尾注的分割线我也不想要。
+
+很明显那个返回按钮的emoji摆在那又违和又丑，不过那实际上是个字符，给他换种字体就行了！
+
+```css
+.footnotes-area .footnote-line { /*尾注字体*/
+  color: var(--text-color);
+  font-size: var(--base-font-size);
+}
+.footnotes-area hr {
+  height: 0px !important; /*尾注上分割线的粗细*/
+  border: 0;
+  color: #00000000;
+}
+.reversefootnote{ /*修改返回按钮的样式，不搞emoji*/
+  font-family:"Latin Modern Roman", "Latin Modern Roman 10" !important;
+}
+```
+
+撒花✿✿ヽ(°▽°)ノ✿
+
 ## 快捷键
 
 这里给出我常用的快捷键设置，打开“偏好设置”$\rightarrow$“通用”$\rightarrow$“高级设置”$\rightarrow$“打开高级设置”$\rightarrow$“conf.user.json”，找到`"keyBinding": `那一片儿，将如下代码复制进去即可：
