@@ -259,7 +259,7 @@ thead {
     background-color: #f8f8f8;
 }
 table th {
-    font-weight: bold;
+    font-weight: normal;
     border: 1px solid #dfe2e5;
     border-bottom: 0;
     margin: 0;
