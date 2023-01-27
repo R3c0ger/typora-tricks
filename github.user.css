@@ -374,8 +374,8 @@ code {
 }
 */
 #write h1 {
-    counter-reset: h2;
-  }
+  counter-reset: h2;
+}
 #write h2 {
   counter-reset: h3;
 }
@@ -683,4 +683,34 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 }
 .reversefootnote{ /*修改返回按钮的样式，不搞emoji*/
   font-family:"Latin Modern Roman", "Latin Modern Roman 10" !important;
+}
+
+ol ol {
+  counter-reset: liist;
+  list-style: none;
+}
+ol ol li {
+  counter-increment: liist;
+  position: relative;
+}
+ol ol li::before {
+  /* 有序列表第二级：括号加数字 */
+  content: "(" counter(liist) ")";
+  position: absolute;
+  left: -2em;
+}
+ol ol ol {
+  counter-reset: liiist;
+  list-style: none;
+  margin: 0;
+}
+ol ol ol li {
+  counter-increment: liiist;
+  position: relative;
+}
+ol ol ol li::before {
+  /* 有序列表第三级：小写字母 */
+  content: counter(liiist,lower-alpha) ".";
+  position: absolute;
+  left: -1.5em;
 }
