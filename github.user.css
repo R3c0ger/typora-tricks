@@ -719,5 +719,19 @@ blockquote {
   border-left: 4px solid #c7c5c5;
   padding: 0 15px;
   color: #555;
-  /* font-family: cursive; *//*楷书*/
+}
+
+/* 二级引用一般作为版权声明 */
+blockquote blockquote {
+  border-left: 4px solid #c7c5c500;
+  padding: 0 15px;
+  color: #777;
+  font-family: cursive;/*楷书*/
+}
+/* 可以选择将下块代码解除注释 */
+/* 这样就能在输出的PDF中隐藏声明（给自己看的） */
+@media print{
+  blockquote blockquote {
+    display: none;
+  }
 }
