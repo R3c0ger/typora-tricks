@@ -1,7 +1,8 @@
 # Typora有点儿深度使用的学习索引
 
 [TOC]
-## 前言
+
+## 1. 前言
 
 > 因为Markdown这个语言很尴尬，再往上一点，哎，$\LaTeX$，可能有点实力，还能操作一下；再往下，Microsoft Office *Word*，人家就纯属所见即所得的，自己也知道自己格式需要调整。但Markdown？上不去又下不来。它觉得Word不配和自己放一块，但是呢，它想上去，它又上不去，想操作又操作不起来，卡在这儿了，掉下去了又不值得。 
 
@@ -17,11 +18,11 @@
 
 源文件已上传至Github：https://github.com/R3c0ger/A-learning-index-of-Typora-with-a-little-bit-using-depth
 
-## Markdown相关网站
+## 2. Markdown相关网站
 
-### 学习网站
+### 2.1. 学习网站
 
-#### Markdown语法学习
+#### 2.1.1. Markdown语法学习
 
 - [Markdown 入门教程](https://www.imooc.com/wiki/markdownlesson)
 - [markdown语法大全](https://www.cnblogs.com/miki-peng/p/12502985.html)：这篇文章不仅很全，而且记录了很多很多颜色和Emoji。
@@ -29,61 +30,51 @@
 - [Typora 完全使用详解](https://sspai.com/post/54912/)
 - [Typora进阶学习](https://www.jianshu.com/p/28d321ffddac)
 
-#### Typora支持MathJax公式书写
+#### 2.1.2. Typora支持MathJax公式书写
 
 - [MarkDown公式指导手册](https://www.jianshu.com/p/53cc67f6c832)
 - [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)
-
 - [Typora中一些常用的latex公式](https://www.jianshu.com/p/8fed0e1a9692)
-
 - [【Typora】超全数学公式全集（没错，你想要的就在这里）](https://zhuanlan.zhihu.com/p/165342174)
-
 - [在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)
-
 - [TeX 的宏 \ 第一集](http://garfileo.is-programmer.com/2010/5/21/macro-of-tex.18296.html)
-
 - [TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)
+- [知乎上的公式是怎么打出来的？](https://www.zhihu.com/question/31298277/answer/275151599)
 
-#### Typora同样支持Mermaid
+#### 2.1.3. Typora同样支持Mermaid
 
 - [About Mermaid](https://mermaid.js.org/intro/)：Mermaid官网，可以直接开始学习。
 - [一款优雅的流程图利器-Mermaid 使用指南](https://blog.csdn.net/qq_42818403/article/details/122599306)：这个么，好像类似于官网的翻译。
 
-#### 有关Typora的样式修改
+#### 2.1.4. 有关Typora的样式修改
 
 - [Typora任意更改样式](https://blog.csdn.net/weixin_45817496/article/details/115867361)
 - [自定义Typora的样式(更新1 2021-7-14)](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)
-
 - [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme)
 
-#### 其他杂项
+#### 2.1.5. 其他杂项
 
 - [Typora快捷键汇总](https://zhuanlan.zhihu.com/p/592538886)
 - [Typora快捷键设置](http://events.jianshu.io/p/4d8f04352dc8)
-
 - [typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)
-
 - [markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
-
 - [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
 
-### 工具网站
+### 2.2. 工具网站
 
 - [Mermaid~v9.3.0~ Live Editor](https://mermaid.live/edit#pako:eNptkLFugzAQhl_FubUGGQwBe0hVqUNTqVO3isWCIyCBnTq2Wop49xpot3g6-b7v193NUJsGQcINPz3qGp97dbFqrDQJ72noa4xOp4dX02lJXnAYDFlrSjrzRZRFMhn_eBfesVrpFSEdKktG_EPXXhTQaHNCcL_blJw3Y6ODdriPn0mLOJCLReUOQGFEO6q-CVvMq1CB63DECmQoG2yVH1wFlV4Cqrwz75OuQTrrkYK_Nsr9Lw2yVcMt_GLTO2Pf9stsB6JwVRrkDN8gMxHnQpSZKBgTaVHwjMIEMhGxyIoyK_jxyDlnrFwo_BgTYpM4LQRLRCqynJVlzviW97E110GWX5I8d18)：在线编辑各种Mermaid图，好像还是得自己手动敲代码......
 - [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/)：画表格的；
-
 - [Convert Excel to LaTeX Table](https://tableconvert.com/excel-to-latex)：把Excel转为$\LaTeX$表格的。
-
 - [quiver: a modern commutative diagram editor](https://q.uiver.app/)：画交换图的，Typora里面好像还不能画曲线，只能画直箭头什么的......
 - [在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/##)
 
-## 样式
+## 3. 样式
 
 我现在使用的是[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)的自己魔改的样式，这个样式目前小问题有点多，但是不耽误使用，而且还是很好看的，反正我已经star了。
 
 接下来我要说的就是我的一些魔改的地方。这些魔改是在[上面提到的伪装LaTeX主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)及其[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。我妹学过css啥的，下面要么是抄的，要么是<kbd>shift</kbd>+<kbd>F12</kbd>找出来的。
 
-### 列表
+### 3.1. 列表
 
 ```css
 #write.first-line-indent li {
@@ -99,7 +90,7 @@
 
 ![2.1.0_2](assets/2.1.0_2.png)
 
-### 下划线
+### 3.2. 下划线
 
 默认的下划线样式就好像一条舔狗，死死地咬着文本不放，所以我给改了。我偶然发现这么一篇文章：[自定义Typora的样式](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)（这篇文章中还有其他有用的内容），照着里面的代码调了一下，修改下划线的代码在下面，效果在上面的图片里。
 
@@ -132,7 +123,7 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 
 2023.1.18更新：其实修改超链接的下划线和修改文本下划线实际上是一样的，只要改border-xxx就行了......
 
-### 对齐
+### 3.3. 对齐
 
 2023.1.18 后来我还是换回了github主题......当然主题是我魔改过的！会发到仓库里去的！
 
@@ -159,7 +150,7 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 | justify | 实现两端对齐文本效果。                     |
 | inherit | 规定应该从父元素继承 text-align 属性的值。 |
 
-### 目录相关
+### 3.4. 目录相关
 
 首先，我把目录的padding-bottom给敲掉了（话说明明是底部填充，可为什么表现出来的是左填充呢？）（pad长并感）
 
@@ -245,7 +236,11 @@ h2 {
 }
 ```
 
-### 尾注
+最终更新：这个目录的跨页效果其实和图片跨页的效果一样糟糕。。。。
+
+![image-20230406230934207](assets/image-20230406230934207.png)
+
+### 3.5. 尾注
 
 尾注字体搞成和正文一样的了。
 
@@ -270,7 +265,7 @@ h2 {
 
 撒花✿✿ヽ(°▽°)ノ✿
 
-## 快捷键
+## 4. 快捷键
 
 这里给出我常用的快捷键设置，打开“偏好设置”$\rightarrow$“通用”$\rightarrow$“高级设置”$\rightarrow$“打开高级设置”$\rightarrow$“conf.user.json”，找到`"keyBinding": `那一片儿，将如下代码复制进去即可：
 
@@ -282,7 +277,7 @@ h2 {
     "代码块": "Ctrl+Shift+W",
     "公式块": "Ctrl+Shift+E",
     "插入本地图片…": "Ctrl+R",
-    "代码": "Ctrl+Shift+T",
+    "代码": "Ctrl+Shift+R",
     "PDF": "Ctrl+Shift+F",
     "搜索": "Ctrl+Shift+5",
     "内容目录": "Ctrl+Shift+A",
@@ -298,11 +293,11 @@ h2 {
 
 前面的中文就是工具栏里的选项，后面的就是快捷键，注意按键的首字母大写，符号都是英文符号，最后一行不要加逗号（这句跟废话一样）。
 
-ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？我明明设置好了的啊？2023-1-5更新：从<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>改成了<kbd>Ctrl</kbd>+<kbd>R</kbd>，便可正常运行了，莫名其妙
+ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？我明明设置好了的啊？2023-1-5更新：从<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>改成了<kbd>Ctrl</kbd>+<kbd>R</kbd>，便可正常运行了，莫名其妙  2023-4-6更新：<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>分配给行间代码还是挺不错的~
 
-## 图片
+## 5. 图片
 
-### 添加图片
+### 5.1. 添加图片
 
 （1）在偏好设置中我一般这么整：
 
@@ -343,13 +338,13 @@ typora-root-url: ./assets/
 
 目前这样的操作能解决问题。
 
-### 图片位置
+### 5.2. 图片位置
 
 参见：[typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)、[markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
 
-## 公式
+## 6. 公式
 
-### 底色、边框
+### 6.1. 底色、边框
 
 $$
 \bbox[yellow,5px,border:black]{e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n \tag{*} }
@@ -375,7 +370,7 @@ $$
 
 无法显示边框（悲）
 
-### 引用
+### 6.2. 引用
 
 
 $$
@@ -405,7 +400,7 @@ $$
 $a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$
 ```
 
-### 宏定义
+### 6.3. 宏定义
 
 $\def\ds{\displaystyle}
 \def\BOX#1{\fbox{$\ds #1$}}
@@ -428,7 +423,7 @@ $\frac{aaaaaaaa}{bbbbbbbbb}$
 
 参见[TeX 的宏 \ 第一集](http://garfileo.is-programmer.com/2010/5/21/macro-of-tex.18296.html)、[TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)。
 
-### 定义新命令
+### 6.4. 定义新命令
 
 `\newcommand`也能用，那就很好玩了。
 
@@ -514,7 +509,7 @@ $
 
 以上来自于我之前的数学笔记，搞得一团糟。
 
-### 括号
+### 6.5. 括号
 
 $\set{\cfrac{asd}{asd}} \quad \{\cfrac{asd}{asd}\} \quad \left\{\cfrac{asd}{asd}\right\}$
 
@@ -522,7 +517,7 @@ $\set{\cfrac{asd}{asd}} \quad \{\cfrac{asd}{asd}\} \quad \left\{\cfrac{asd}{asd}
 $\set{\cfrac{asd}{asd}} \quad \{\cfrac{asd}{asd}\} \quad \left\{\cfrac{asd}{asd}\right\}$
 ```
 
-### 盒子们
+### 6.6. 盒子们
 
 $$
 \Box \BOX{sdadasd\frac{asd}{sad}} \bbox[yellow]{asdas} \fbox{adsw} \hbox{ when $x > 2$}
@@ -536,7 +531,7 @@ $$
 
 `\BOX{}`是前面定义过的。
 
-### \require{}
+### 6.7. \require{}
 
 $$
 \require{cancel}
@@ -609,6 +604,40 @@ $$
       \phantom{00}0
   \end{array}
 ```
+
+具体实例：
+
+![image-20230406231411031](assets/image-20230406231411031.png)
+
+```latex
+\require{enclose}
+\begin{array}{rll}
+   \textbf{Example 1:}\phantom{10011000000} 1100001010 \\[-2pt]
+   10011\, \enclose{longdiv}{1101011011\fbox{\!0000\!}}\kern-.8ex \\[-2pt]
+      \underline{10011\phantom{000000000}} \kern.1ex \\[-2pt]
+      10011\phantom{00000000}\\[-2pt]
+      \underline{10011\phantom{00000000}} \\[-2pt]
+       10110 \phantom{000}  \\[-2pt]
+      \underline{10011 \phantom{000}}  \\[-2pt]
+      10100 \phantom{0} \\[-2pt]
+      \underline{10011\phantom{0}}\\[-2pt]
+      1110 
+  \end{array}
+  \qquad\qquad
+  \begin{array}{rll}
+     \textbf{Example 2:}\phantom{10011000000} 1101010 \\[-2pt]
+   11001\, \enclose{longdiv}{1011001\fbox{\!0000\!}}\kern-.8ex \\[-2pt]
+      \underline{11001\phantom{000000}} \kern.1ex \\[-2pt]
+      11110\phantom{00000}\\[-2pt]
+      \underline{11001\phantom{00000}} \\[-2pt]
+       11110 \phantom{000}  \\[-2pt]
+      \underline{11001 \phantom{000}}  \\[-2pt]
+       11100 \phantom{0}  \\[-2pt]
+      \underline{11001 \phantom{0}}  \\[-2pt]
+      1010
+  \end{array}
+```
+
 
 $$
 \require{AMScd}
@@ -656,7 +685,7 @@ $$
 
 以上来自于[MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)、[在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)。只能说，MathJax is *not* LaTeX，这效果一言难尽（知乎效果反而比Typora好......）。
 
-## HTML
+## 7. HTML
 
 如何实现像$\LaTeX$里面的`\newpage`那样手动断页呢？
 
@@ -674,7 +703,9 @@ $$
 
 右对齐：`<div style="text-align: right"> 2023年1月5日 </div>`
 
-## 杂项
+插入多张图片：`<center> <figure> <img src="assets/1.png" width="300px"/> <img src="assets/2.png" width="300px"/> </figure> </center>`
+
+## 8. 杂项
 
 装作首行缩进的字符：
 　　就在这一行的最前面捏
