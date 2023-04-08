@@ -57,6 +57,7 @@
 - [Typora快捷键汇总](https://zhuanlan.zhihu.com/p/592538886)
 - [Typora快捷键设置](http://events.jianshu.io/p/4d8f04352dc8)
 - [typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)
+- [将图片内嵌入Markdown文档中](https://blog.csdn.net/u010158659/article/details/61197893)
 - [markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
 - [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
 
@@ -341,6 +342,24 @@ typora-root-url: ./assets/
 ### 5.2. 图片位置
 
 参见：[typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)、[markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
+
+### 5.3. 图片内嵌
+
+参考：[将图片内嵌入Markdown文档中](https://blog.csdn.net/u010158659/article/details/61197893)
+
+这个功能可以说是整篇文章中最铸币、最不具备实用性的功能了。说白了就是直接将图片存储在文档内，不用什么图床也不用什么本地存储，但是这样造成的后果也可谓是个灾难：源文件可读性极差，丑陋无比。如图，最右边的进度条基本全都是 Base64，这不是灾难还能是啥啊......
+
+![](assets/QQ截图20230408141614.png)
+
+具体实现方法是：使用工具将图片转为 base64编码，用如下的形式插入文章中：
+
+```Markdown
+![][1]
+
+[1]:data:image/png;base64,<这里是你的base64编码>
+```
+
+有点类似于脚注。另外，这个功能可能在其他md软件中无法使用。希望大家用不到这玩意。
 
 ## 6. 公式
 
