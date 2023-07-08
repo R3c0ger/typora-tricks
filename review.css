@@ -59,8 +59,8 @@ body {
     counter-reset: h2 0 h3 0 h4 0 h5 0 h6 0;
 }
 #write p {
-  text-align: justify; /*正文内容两端对齐*/
-  word-break: break-all; /* 允许在单词内换行 */
+  text-align: left; /*正文内容两端对齐*/
+  /*word-break: break-all; 允许在单词内换行*/
 }
 
 
@@ -161,7 +161,6 @@ h2 {
     font-size: 1.6em;
     line-height: 1.58;
     border-bottom: 0 solid rgb(255, 255, 255);
-    page-break-before: always !important;
 }
 
 /*@media print {

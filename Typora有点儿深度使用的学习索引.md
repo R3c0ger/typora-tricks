@@ -1,8 +1,8 @@
-# Typora有点儿深度使用的学习索引
+# Typora 有点儿深度使用的学习索引
 
 [TOC]
 
-## 1. 前言
+## 前言
 
 > 因为Markdown这个语言很尴尬，再往上一点，哎，$\LaTeX$，可能有点实力，还能操作一下；再往下，Microsoft Office *Word*，人家就纯属所见即所得的，自己也知道自己格式需要调整。但Markdown？上不去又下不来。它觉得Word不配和自己放一块，但是呢，它想上去，它又上不去，想操作又操作不起来，卡在这儿了，掉下去了又不值得。 
 
@@ -18,20 +18,22 @@
 
 源文件已上传至Github：https://github.com/R3c0ger/A-learning-index-of-Typora-with-a-little-bit-using-depth
 
-## 2. Markdown相关网站
+## Markdown相关网站
 
-### 2.1. 学习网站
+### 学习网站
 
-#### 2.1.1. Markdown语法学习
+#### Markdown语法学习
 
 - [Markdown 入门教程](https://www.imooc.com/wiki/markdownlesson)
 - [markdown语法大全](https://www.cnblogs.com/miki-peng/p/12502985.html)：这篇文章不仅很全，而且记录了很多很多颜色和Emoji。
 - [MarkDown高阶语法手册](https://mp.weixin.qq.com/s/L9WI8zMlPWdqUsyh36vUhA)
+- [Typora Support](https://support.typora.io/)：万法归宗，能使用魔法的还是尽量看官方的文档吧
 - [Typora 完全使用详解](https://sspai.com/post/54912/)
 - [Typora进阶学习](https://www.jianshu.com/p/28d321ffddac)
 
-#### 2.1.2. Typora支持MathJax公式书写
+#### Typora支持MathJax公式书写
 
+- [Math and Academic Functions](https://support.typora.io/Math/)：官方教程，得会科学上网
 - [MarkDown公式指导手册](https://www.jianshu.com/p/53cc67f6c832)
 - [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)
 - [Typora中一些常用的latex公式](https://www.jianshu.com/p/8fed0e1a9692)
@@ -41,18 +43,19 @@
 - [TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)
 - [知乎上的公式是怎么打出来的？](https://www.zhihu.com/question/31298277/answer/275151599)
 
-#### 2.1.3. Typora同样支持Mermaid
+#### Typora同样支持Mermaid
 
 - [About Mermaid](https://mermaid.js.org/intro/)：Mermaid官网，可以直接开始学习。
 - [一款优雅的流程图利器-Mermaid 使用指南](https://blog.csdn.net/qq_42818403/article/details/122599306)：这个么，好像类似于官网的翻译。
 
-#### 2.1.4. 有关Typora的样式修改
+#### 有关Typora的样式修改
 
+- [Write Custom Theme_zh](https://theme.typora.io/doc/zh/Write-Custom-Theme/)：现在我会科学上网了，才想起来还有官方教程。
 - [Typora任意更改样式](https://blog.csdn.net/weixin_45817496/article/details/115867361)
 - [自定义Typora的样式(更新1 2021-7-14)](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)
 - [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme)
 
-#### 2.1.5. 其他杂项
+#### 其他杂项
 
 - [Typora快捷键汇总](https://zhuanlan.zhihu.com/p/592538886)
 - [Typora快捷键设置](http://events.jianshu.io/p/4d8f04352dc8)
@@ -61,7 +64,7 @@
 - [markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
 - [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
 
-### 2.2. 工具网站
+### 工具网站
 
 - [Mermaid~v9.3.0~ Live Editor](https://mermaid.live/edit#pako:eNptkLFugzAQhl_FubUGGQwBe0hVqUNTqVO3isWCIyCBnTq2Wop49xpot3g6-b7v193NUJsGQcINPz3qGp97dbFqrDQJ72noa4xOp4dX02lJXnAYDFlrSjrzRZRFMhn_eBfesVrpFSEdKktG_EPXXhTQaHNCcL_blJw3Y6ODdriPn0mLOJCLReUOQGFEO6q-CVvMq1CB63DECmQoG2yVH1wFlV4Cqrwz75OuQTrrkYK_Nsr9Lw2yVcMt_GLTO2Pf9stsB6JwVRrkDN8gMxHnQpSZKBgTaVHwjMIEMhGxyIoyK_jxyDlnrFwo_BgTYpM4LQRLRCqynJVlzviW97E110GWX5I8d18)：在线编辑各种Mermaid图，好像还是得自己手动敲代码......
 - [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/)：画表格的；
@@ -69,13 +72,15 @@
 - [quiver: a modern commutative diagram editor](https://q.uiver.app/)：画交换图的，Typora里面好像还不能画曲线，只能画直箭头什么的......
 - [在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/##)
 
-## 3. 样式
+## 样式
 
-我现在使用的是[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)的自己魔改的样式，这个样式目前小问题有点多，但是不耽误使用，而且还是很好看的，反正我已经star了。
+第一次接触修改主题样式是在我使用[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)时开始尝试的，这个样式目前小问题有点多，但是不耽误使用，而且还是很好看的，反正我已经star了。不过后来我还是换回了github主题，但是我也稍微添加了一些修改，以适应我的个人需求。
 
-接下来我要说的就是我的一些魔改的地方。这些魔改是在[上面提到的伪装LaTeX主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)及其[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。我妹学过css啥的，下面要么是抄的，要么是<kbd>shift</kbd>+<kbd>F12</kbd>找出来的。
+接下来我要说的就是我的一些比较重点的魔改的地方。这些魔改是在[上面提到的伪装LaTeX主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)及其[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。这里面最为重要的一个内容就是**标题级别前添加了自动序号**，这一点非常实用，大家可以直接去下载上述的样式主题进行学习，这里就不再赘述了。
 
-### 3.1. 列表
+我没学过css啥的，下面要么是抄的，要么是<kbd>shift</kbd>+<kbd>F12</kbd>找出来的，如有疏漏和错误，烦请批评指正。
+
+### 列表
 
 ```css
 #write.first-line-indent li {
@@ -91,7 +96,7 @@
 
 ![2.1.0_2](assets/2.1.0_2.png)
 
-### 3.2. 下划线
+### 下划线
 
 默认的下划线样式就好像一条舔狗，死死地咬着文本不放，所以我给改了。我偶然发现这么一篇文章：[自定义Typora的样式](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)（这篇文章中还有其他有用的内容），照着里面的代码调了一下，修改下划线的代码在下面，效果在上面的图片里。
 
@@ -119,14 +124,12 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
     /*color: inherit !important;*/
     text-decoration: none;
   } 
-}/*PDF中超链接这块的代码，看不懂，不会用（）*/
+}
 ```
 
 2023.1.18更新：其实修改超链接的下划线和修改文本下划线实际上是一样的，只要改border-xxx就行了......
 
-### 3.3. 对齐
-
-2023.1.18 后来我还是换回了github主题......当然主题是我魔改过的！会发到仓库里去的！
+### 文字对齐与打断
 
 首先是标题的对齐，一二级整了个居中，如下图：
 
@@ -151,7 +154,37 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 | justify | 实现两端对齐文本效果。                     |
 | inherit | 规定应该从父元素继承 text-align 属性的值。 |
 
-### 3.4. 目录相关
+当然在这种样式下，会出现一种很糟糕的情况，即当较长的英文字符串出现时：
+
+<---test--->
+
+Subterranean Animism Phantasmagoria of Flower View Undefined Fantastic Object Phantasmagoria of Flower View
+一得阁拉米娜thequickbrownfoxjumpsoveralazydogthequickbrownfoxjumpsoveralazydogthequickbrownfoxjumpsoveralazydog
+
+<---test--->
+
+就会有如下情况：
+
+![image-20230708163037387](assets/image-20230708163037387.png)
+
+我其实是在**秀米**里面第一次遇见如此严重的情况的，当时我找到的解决办法是给文本框设置“**西文打断**”。然而当我在编辑md文档中一而再再而三遇到这个问题时，我的感受就是上面那被拉成了super面筋人的六个大字。
+
+不过幸好，解决方法也和秀米一样简单：
+
+```CSS
+#write p {
+  text-align: justify; /*正文内容两端对齐*/
+  word-break: break-all; /* 允许在单词内换行 */
+}
+```
+
+效果就是这样了：
+
+![image-20230708163706478](assets/image-20230708163706478.png)
+
+但是，但是，任何一个选择都要付出代价。单词打断所要付出的代价就是增加了阅读成本，被打断的单词阅读起来非常不直观。所以我最后还是选择左对齐、不打断单词了，返璞归真了属于是。
+
+### 目录相关
 
 首先，我把目录的padding-bottom给敲掉了（话说明明是底部填充，可为什么表现出来的是左填充呢？）（pad长并感）
 
@@ -241,7 +274,7 @@ h2 {
 
 ![image-20230406230934207](assets/image-20230406230934207.png)
 
-### 3.5. 尾注
+### 尾注
 
 尾注字体搞成和正文一样的了。
 
@@ -264,9 +297,71 @@ h2 {
 }
 ```
 
-撒花✿✿ヽ(°▽°)ノ✿
+### 标题前自动分页
 
-## 4. 快捷键
+[Page Breaks](https://support.typora.io/Page-Breaks/)这里面讲的挺清晰的了其实，我再多提一嘴吧。<span id='autopagebreak'> </span>
+
+标题的分页在Typora和Word中都算是比较简单的了，Word里面需要找一找，而Typora直接改一行代码就行了。
+
+![image-20230708165701470](assets/image-20230708165701470.png)
+
+```css
+h2 {
+    page-break-before: always !important;
+}
+```
+
+在[Page Breaks](https://support.typora.io/Page-Breaks/)里面，你可以看到一些考虑的更详尽的内容：
+
+```css
+@media print, (overflow-block: paged) or (overflow-block: optional-paged)
+{
+  /* Move top-level headings to a new page on the right-hand side: */
+  h1
+  {
+    page-break-before: right; /* CSS 2 */
+    break-before: recto;      /* CSS 3+, 
+      also works for languages written and paginated right-to-left */
+  }
+  /* Override the previous ruleset for the very first heading: */
+  h1:first-of-type,
+  section > h1:first-child
+  {
+    page-break-before: avoid; /* CSS 2 */
+    break-before: avoid;      /* CSS 3+ */
+  }
+  /* Force second-level headings to begin in a new column or
+     possiblyon a new page if it was in the last of multiple columns otherwise: */
+  h2
+  {
+    break-before: column;
+  }
+  /* Headings should not be the last paragraph on a page: */
+  h1, h2, h3, h4, h5, h6
+  {
+    page-break-after: avoid;
+  }
+  /* Consecutive headings with deepening level should not be split across pages: */
+  h1+h2, h2+h3, h3+h4, h4+h5, h5+h6
+  {
+    page-break-before: avoid;
+  }
+}
+```
+
+双栏排版不在当前考虑范围之内，这里需要注意的是**与下段同页**这个功能，这是我之前没考虑到的。
+
+![image-20230708170910446](assets/image-20230708170910446.png)
+
+---
+
+上面讲到的方法只能实现标题前的自动分页，而要手动分页的话，则需要使用HTML来完成了，[参见这里](#pagebreak)。
+
+其余杂七杂八的内容可以去这份文档的GitHub仓库中下载css代码了解（我写的贼烂，纯整活的）。
+
+
+
+## 快捷键
 
 这里给出我常用的快捷键设置，打开“偏好设置”$\rightarrow$“通用”$\rightarrow$“高级设置”$\rightarrow$“打开高级设置”$\rightarrow$“conf.user.json”，找到`"keyBinding": `那一片儿，将如下代码复制进去即可：
 
@@ -283,7 +378,7 @@ h2 {
     "搜索": "Ctrl+Shift+5",
     "内容目录": "Ctrl+Shift+A",
     "选择段落或块": "Ctrl+Shift+D",
-    "删除当前词": "Ctrl+D",
+    "删除当前词": "Ctrl+D", //其实我现在不想这么整了，毕竟万一手滑按到了呢（
     "删除块": "Ctrl+Alt+D",
     "高亮": "F2",
     "源代码模式": "F12",
@@ -296,9 +391,9 @@ h2 {
 
 ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？我明明设置好了的啊？2023-1-5更新：从<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>改成了<kbd>Ctrl</kbd>+<kbd>R</kbd>，便可正常运行了，莫名其妙  2023-4-6更新：<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>分配给行间代码还是挺不错的~
 
-## 5. 图片
+## 图片
 
-### 5.1. 添加图片
+### 添加图片
 
 （1）在偏好设置中我一般这么整：
 
@@ -339,11 +434,11 @@ typora-root-url: ./assets/
 
 目前这样的操作能解决问题。
 
-### 5.2. 图片位置
+### 图片位置
 
 参见：[typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)、[markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
 
-### 5.3. 图片内嵌
+### 图片内嵌
 
 参考：[将图片内嵌入Markdown文档中](https://blog.csdn.net/u010158659/article/details/61197893)
 
@@ -361,9 +456,17 @@ typora-root-url: ./assets/
 
 有点类似于脚注。另外，这个功能可能在其他md软件中无法使用。希望大家用不到这玩意。
 
-## 6. 公式
+### 图片缩放
 
-### 6.1. 底色、边框
+参见[Resize Images](https://support.typora.io/Resize-Image/)，对图片右键就能看得到：
+
+![image-20230708181015281](assets/image-20230708181015281.png)
+
+然而缩放后的图片是无法在Obsidian中显示的，使用须谨慎。
+
+## 公式
+
+### 底色、边框
 
 $$
 \bbox[yellow,5px,border:black]{e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n \tag{*} }
@@ -389,28 +492,13 @@ $$
 
 无法显示边框（悲）
 
-### 6.2. 引用
+### 引用
 
 
 $$
-\textbf{一得阁拉米}\tag{m}
+\textbf{一得阁拉米}1\tag{f}\label{f}
 $$
-$a+y^3 \stackrel{\eqref{m}\ref{m}} = x^2$	这样整不太行。
-
-```latex
-$$
-\textbf{一得阁拉米}\tag{m}
-$$
-$a+y^3 \stackrel{\eqref{m}\ref{m}} = x^2$
-```
-
-
-$$
-\textbf{一得阁拉米娜}\tag{f}\label{f}
-$$
-$a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$	这样整行。可以定义个新命令统合一下。
-
-更新：其实不太行，重新打开一遍该md文件就会崩掉，只有删掉`\label{}`再添加回来、再动一下引用该公式的内容才行，心累。知乎上也根本用不了这个。
+$a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$	这样整行，可以定义个新命令统合一下。但是不知为何不是很稳定。
 
 ```latex
 $$
@@ -419,7 +507,7 @@ $$
 $a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$
 ```
 
-### 6.3. 宏定义
+### 宏定义
 
 $\def\ds{\displaystyle}
 \def\BOX#1{\fbox{$\ds #1$}}
@@ -442,7 +530,7 @@ $\frac{aaaaaaaa}{bbbbbbbbb}$
 
 参见[TeX 的宏 \ 第一集](http://garfileo.is-programmer.com/2010/5/21/macro-of-tex.18296.html)、[TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)。
 
-### 6.4. 定义新命令
+### 定义新命令
 
 `\newcommand`也能用，那就很好玩了。
 
@@ -528,7 +616,7 @@ $
 
 以上来自于我之前的数学笔记，搞得一团糟。
 
-### 6.5. 括号
+### 括号
 
 $\set{\cfrac{asd}{asd}} \quad \{\cfrac{asd}{asd}\} \quad \left\{\cfrac{asd}{asd}\right\}$
 
@@ -536,7 +624,7 @@ $\set{\cfrac{asd}{asd}} \quad \{\cfrac{asd}{asd}\} \quad \left\{\cfrac{asd}{asd}
 $\set{\cfrac{asd}{asd}} \quad \{\cfrac{asd}{asd}\} \quad \left\{\cfrac{asd}{asd}\right\}$
 ```
 
-### 6.6. 盒子们
+### 盒子们
 
 $$
 \Box \BOX{sdadasd\frac{asd}{sad}} \bbox[yellow]{asdas} \fbox{adsw} \hbox{ when $x > 2$}
@@ -550,7 +638,7 @@ $$
 
 `\BOX{}`是前面定义过的。
 
-### 6.7. \require{}
+### \require{}
 
 $$
 \require{cancel}
@@ -704,17 +792,107 @@ $$
 
 以上来自于[MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)、[在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)。只能说，MathJax is *not* LaTeX，这效果一言难尽（知乎效果反而比Typora好......）。
 
-## 7. HTML
+## HTML
 
-如何实现像$\LaTeX$里面的`\newpage`那样手动断页呢？
+以下HTML标签可直接内联显示在Typora中：
 
-<div class="cover" style="page-break-after:always;">
+| **Raw Markdown Source**                                      | **Output in Live Preview**                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `<span style='color:red'>This is red</span>`                 | <span style='color:red'>This is red</span>                   |
+| `<ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>`                         | 漢  ㄏㄢˋ  <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>                |
+| `<kbd>Ctrl</kbd>+<kbd>F9</kbd>`                              | <kbd>Ctrl</kbd>+<kbd>F9</kbd>                                |
+| `<span style="font-size:2rem; background:yellow;">**Bigger**</span>` | <span style="font-size:2rem; background:yellow;">**Bigger**</span> |
+| `HTML entities like &reg; &#182;`                            | HTML entities like ® ¶                                       |
+
+### 手动/强制断页
+
+如何实现像$\LaTeX$里面的`\newpage`那样手动断页呢？<span id='pagebreak'>标题前自动断页请看</span>[这里](#autopagebreak)。
+
+<div style="page-break-after: always; break-after: page;"></div>
+
 
 ```html
-<div class="cover" style="page-break-after:always;">
+<div style="page-break-after: always; break-after: page;"></div>
 ```
 
 上面这一行就可以搞定了。
+
+另外，官方文档中还提到很多其他的手动强制分页方式，个人觉得作用不大，就先贴在这里吧：
+
+> #### HTML and Central CSS
+>
+> If manual page breaks are needed frequently, it makes more sense to use an [external stylesheet](https://support.typora.io/Add-Custom-CSS/) for better maintenance and less clutter.
+>
+> ```html
+> Markdown with embedded HTML:
+> 
+> <div class="page-break"></div>
+> 
+> Markdown continues.
+> <p>Markdown with embedded HTML:</p>
+> <div class="page-break"></div>
+> <p>Markdown continues.</p>
+> /* completely hide the element where it is not needed */
+> .page-break
+> {
+>     display: none; 
+> }
+> @media print, (overflow-block: paged) or (overflow-block: optional-paged)
+> {
+>   .page-break
+>   {
+>     display: block;
+>     page-break-after: always; /* CSS 2 */
+>          break-after: page;   /* CSS 3+ */
+>   }
+> }
+> ```
+>
+> #### Thematic Breaks
+>
+> Alternatively, existing Markdown structure can be repurposed. This way, neither HTML nor CSS is necessary within the Markdown file at all.
+>
+> There are three ways to insert a [thematic break in Markdown](https://spec.commonmark.org/current/#thematic-breaks), using three or more asterisks `*`, hyphens `-` or underscores `_`, possibly with whitespace in between them. They all result in the same HTML (or PDF) output, which can then be used to create page breaks. Basically all Markdown presentation packages follow this convention as well, inserting a slide transition for every thematic break.
+>
+> ```markdown
+> Break incoming
+> 
+>   * * *
+> 
+> in between breaks
+> 
+> ----
+> 
+> still one more to come
+> 
+> ___________
+> 
+> after the final break.
+> <p>Break incoming</p>
+> <hr>
+> <p>in between breaks</p>
+> <hr>
+> <p>still one more to come</p>
+> <hr>
+> <p>after the final break.</p>
+> ```
+>
+> The only thing required is [some custom CSS](https://support.typora.io/Add-Custom-CSS/).
+>
+> ```css
+> @media print, (overflow-block: paged) or (overflow-block: optional-paged)
+> {
+>   hr
+>   {
+>     page-break-after: always; /* CSS 2 */
+>          break-after: region; /* CSS 3+ */
+>     /* minimal layout disruption: */
+>     height: 0.1mm; visibility: hidden;
+>   }
+> }
+> ```
+
+### 对齐方式
 
 居中：`<center>标题</center>`
 
@@ -722,12 +900,207 @@ $$
 
 右对齐：`<div style="text-align: right"> 2023年1月5日 </div>`
 
-插入多张图片：`<center> <figure> <img src="assets/1.png" width="300px"/> <img src="assets/2.png" width="300px"/> </figure> </center>`
+### 文字颜色与背景颜色
 
-## 8. 杂项
+<span style="font-size:2rem; background:yellow; color:red;">**Bang! Bang! Banki Banki Seiki Banki!**</span>
 
-装作首行缩进的字符：
-　　就在这一行的最前面捏
+![image-20230708205341794](assets/image-20230708205341794.png)
+
+```HTML
+<span style="font-size:2rem; background:yellow; color:red;">**Bang! Bang! Banki Banki Seiki Banki!**</span>
+```
+
+——感觉不如Obsidian的“增强编辑”插件方便。
+
+### 锚点
+
+锚点是Typora所支持的GitHub Flavored Markdown（简称GFM）扩展语法中的一个有意思的功能，这是个用于在文档中实现**跳转**的操作，非常实用。在导出的PDF里也能愉快地运行。
+
+锚点的语法是：`[<任意内容>](#锚点名)`
+
+
+
+（1）锚点名可以是标题：[比如你现在想回过头来看对齐方式这一节](#对齐方式)
+
+```markdown
+[比如你现在想回过头来看对齐方式这一节](#对齐方式)
+```
+
+这可以用于跳转到任意标题处，进一步可以用来制作一份（可能）适用于其他编辑器的目录TOC（反正Obsidian不行）。
+
+
+
+（2）除跳转到标题之外，锚点还可以用于跳转到任意位置，这就需要借助HTML中的`id`属性了：
+
+<span id="tag1">tag1：这里你想**写啥就写**啥，就连==md语法==也能给<u>你一并实</u>现</span>
+
+<b id="tag2">tag2：重点是要设置一个id键值对，标签是啥无所谓</b>
+
+<center id="tag3">tag3：自己动手试试吧！</center>
+
+```html
+<span id="tag1">tag1：这里你想**写啥就写**啥，就连==md语法==也能给<u>你一并实</u>现</span>
+<b id="tag2">tag2：重点是要设置一个id键值对，标签是啥无所谓</b>
+<center id="tag3">tag3：自己动手试试吧！</center>
+```
+
+然后使用锚点：[跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)（不好意思，HTML块无法参与跳转...）
+
+```markdown
+[跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)
+```
+
+
+
+（3）同样可以使用HTML来设置锚点：<a href="#tag2">tag2</a> `<a href="#tag2">tag2</a>`
+
+（难受的是Obsidian和知乎应该都没法使用这个操作......）
+
+### 中日注音
+
+<ruby>大家好啊，我是电棍<rt>欧内的手，好汉</rt> </ruby>
+
+<ruby><rt>欧内的手，好汉</rt>大家好啊，我是电棍 </ruby>
+
+<ruby>大家好啊，我是电棍<rt>欧内的手，好汉<rt>欧内的手，好汉</rt></rt></ruby>
+
+<ruby>大家好啊，我是电棍<rt>哎呀米诺唉乌兹诶乌兹阿诺哈下内大不是欧内的手好汉</rt> </ruby>
+
+<ruby>後<rt>うしろ</rt>戸<rt>ど</rt>ノ</ruby><ruby>主<rt>ぬし</rt>也<rt>なり</rt></ruby>
+
+![image-20230708204750039](assets/image-20230708204750039.png)
+
+```
+<ruby>大家好啊，我是电棍<rt>欧内的手，好汉</rt> </ruby>
+
+<ruby><rt>欧内的手，好汉</rt>大家好啊，我是电棍 </ruby>
+
+<ruby>大家好啊，我是电棍<rt>欧内的手，好汉<rt>欧内的手，好汉</rt></rt></ruby>
+
+<ruby>大家好啊，我是电棍<rt>哎呀米诺唉乌兹诶乌兹阿诺哈下内大不是欧内的手好汉</rt> </ruby>
+
+<ruby>後<rt>うしろ</rt>戸<rt>ど</rt>ノ</ruby><ruby>主<rt>ぬし</rt>也<rt>なり</rt></ruby>
+```
+
+### kbd
+
+当你想更直观清晰地展示某一操作要按哪些键时，可以使用`<kbd>`标签，效果如下：<kbd>Ctrl</kbd>。当然这个也可以更改样式，原生的样式我感觉有点靠下，我就在css文件中添加了这么一段：
+
+```css
+kbd {
+  vertical-align: text-bottom !important;
+}
+```
+
+### HTML实体
+
+参见[HTML entities](https://www.w3schools.com/html/html_entities.asp)。
+
+> 一些字符在HTML中是保留的。如果您在文本中使用小于号（<）或大于号（>），浏览器可能会将它们与标签混淆。字符实体用于在HTML中显示保留字符。
+>
+> 一个字符实体的形式如下：
+>
+> ```HTML
+> &entity_name;
+> 
+> OR
+> 
+> &#entity_number; 
+> ```
+>
+> 要显示小于号（<），我们必须写成：`&lt;`或`&#60;`
+
+
+
+（1）HTML实体可以用来表示分数和多种符号（当然人家建议直接用unicode）：`&frac14;` → ¼, `&#x1D517;` → 𝔗
+
+（2）不换行的空格和连字符： `&nbsp;` `&#8209;`
+
+两个由不间断空格（non-breaking space）分隔的单词将保持在一起，不会分隔到新行。这在分隔单词可能会造成干扰时非常方便，尤其是排版处理`§ 10、10 km/h、10 PM`等的带单位/符号数据时。
+
+不间断空格的另一个常见用途是防止浏览器截断 HTML 页面中的空格。如果在文本中输入 10 个空格，浏览器将删除其中的 9 个。为了向文本添加实际的空格，可以使用 `&nbsp;` 字符实体。
+
+（3）HTML实体还能提供一些变音符号，至于是否有汉语拼音的一声和三声我暂且未知，这勉强有点用吧....：
+
+| Mark | Character | Construct | Result |
+| ---- | --------- | --------- | ------ |
+| ̀     | a         | `a&#768;` | à      |
+| ́     | a    		| `a&#769;` | á      |
+| ̂     | a    		| `a&#770;` | â      |
+| ̃     | a    		| `a&#771;` | ã      |
+
+### HTML块中的媒体和嵌入式内容
+
+下面这些都无法在导出的 PDF 中显示哦（
+
+插入视频：
+
+```HTML
+<video src="xxx.mp4" />
+```
+
+插入音频：
+
+```HTML
+<audio src="xxx.mp3" />
+```
+
+嵌入式框架iframe：
+
+```Markdown
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+```
+
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+
+~~PDF~~：
+
+兄弟，不至于，有点过了，这种事情（包括上面三个）还是交给Obsidian这种编辑器来干吧。
+
+> No longer supported, you may try online file viewers instead, such as examples in  https://gist.github.com/tzmartin/1cf85dc3d975f94cfddc04bc0dd399be.
+
+### 其他玩法
+
+隐藏文字：<span style="display:none">这里面的内容会在导出后隐藏</span>
+
+```HTML
+<span style="display:none">这里面的内容会在导出后隐藏</span>
+```
+
+插入多张图片：
+
+```html
+<center> <figure> <img src="assets/1.png" width="300px"/> <img src="assets/2.png" width="300px"/> </figure> </center>
+```
+
+制作论文封面：
+
+见[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)，这可老猛了。同理还可以替代那些用word表格组织起来的奇葩实验报告。
+
+## 杂项
+
+（1）装作首行缩进的字符：
+　　就在这一行的最前面捏，宽度为1em，URL 编码是`%E3%80%80`
+
+（2）参考链接（鼠标放上去会有个提示消息）：`[<text>][<tag>]`
+
+This is [an example][id] reference-style link.
+
+[id]: http://example.com/  "Optional Title Here"
+
+```markdown
+This is [an example][id] reference-style link.
+
+[id]: http://example.com/  "Optional Title Here"
+```
+
+p.s. Typora的链接包含：
+
+- 行内链接 `[<text>](<URL>)` 
+- 内链（锚点） `[<text>](#<tag or title>)` 
+- 参考链接
+- URL
+- 图片`![<pic title>](<addr> "<Optional title>")`
 
 -----
 
