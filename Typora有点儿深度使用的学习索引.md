@@ -28,12 +28,14 @@
 - [markdown语法大全](https://www.cnblogs.com/miki-peng/p/12502985.html)：这篇文章不仅很全，而且记录了很多很多颜色和Emoji。
 - [MarkDown高阶语法手册](https://mp.weixin.qq.com/s/L9WI8zMlPWdqUsyh36vUhA)
 - [Typora Support](https://support.typora.io/)：万法归宗，能使用魔法的还是尽量看官方的文档吧
+- [GFM’s spec](https://github.github.com/gfm/)：~~Github风味降价~~不是，GitHub风格的Markdown语法规范文档，文档明确（unambiguously）指定Markdown语法，这也正是Typora严格模式所支持的语法。
 - [Typora 完全使用详解](https://sspai.com/post/54912/)
 - [Typora进阶学习](https://www.jianshu.com/p/28d321ffddac)
 
 #### Typora支持MathJax公式书写
 
 - [Math and Academic Functions](https://support.typora.io/Math/)：官方教程，得会科学上网
+- [Supported TeX/LaTeX commands](https://docs.mathjax.org/en/latest/input/tex/macros/index.html)：MathJax所支持的语法是$\LaTeX$的子集，可以在这里查找得到。
 - [MarkDown公式指导手册](https://www.jianshu.com/p/53cc67f6c832)
 - [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)
 - [Typora中一些常用的latex公式](https://www.jianshu.com/p/8fed0e1a9692)
@@ -42,6 +44,7 @@
 - [TeX 的宏 \ 第一集](http://garfileo.is-programmer.com/2010/5/21/macro-of-tex.18296.html)
 - [TeX 宏编程技巧之定界的宏参数](https://zhuanlan.zhihu.com/p/484092340)
 - [知乎上的公式是怎么打出来的？](https://www.zhihu.com/question/31298277/answer/275151599)
+- [mhchem](https://mhchem.github.io/MathJax-mhchem/)：Typora所支持的mhchem for MathJax化学表达式手册
 
 #### Typora同样支持Mermaid
 
@@ -63,6 +66,8 @@
 - [将图片内嵌入Markdown文档中](https://blog.csdn.net/u010158659/article/details/61197893)
 - [markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
 - [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
+- [《中文文案排版指北》](https://sspai.com/link?target=https%3A%2F%2Fgithub.com%2Fmzlogin%2Fchinese-copywriting-guidelines)、[少数派写作排版指南](https://sspai.com/post/37815)：写MD可以参照的较为通用的排版方式（加空格那种还是Obsidian加个插件好用一点）（为什么都喜欢搞那个传统中文引号，又麻烦又没有意义）
+- [YAML 入门教程](https://www.runoob.com/w3cnote/yaml-intro.html)：学习YAML语法
 
 ### 工具网站
 
@@ -71,16 +76,284 @@
 - [Convert Excel to LaTeX Table](https://tableconvert.com/excel-to-latex)：把Excel转为$\LaTeX$表格的。
 - [quiver: a modern commutative diagram editor](https://q.uiver.app/)：画交换图的，Typora里面好像还不能画曲线，只能画直箭头什么的......
 - [在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/##)
+- [论文工具](https://laorange.github.io/paper-assistant/)：可以处理从PDF复制的文本，去除多余换行，中英文标点转换，规范中文排版，功能强大
+- [Copy++](https://copyplusplus.tk)：提供一个软件，可以去除从PDF、CAJ复制的内容的换行与空格，还可以进行翻译，未来还有更多功能
 
 ## 样式
 
 第一次接触修改主题样式是在我使用[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)时开始尝试的，这个样式目前小问题有点多，但是不耽误使用，而且还是很好看的，反正我已经star了。不过后来我还是换回了github主题，但是我也稍微添加了一些修改，以适应我的个人需求。
 
-接下来我要说的就是我的一些比较重点的魔改的地方。这些魔改是在[上面提到的伪装LaTeX主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)及其[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。这里面最为重要的一个内容就是**标题级别前添加了自动序号**，这一点非常实用，大家可以直接去下载上述的样式主题进行学习，这里就不再赘述了。
+接下来我要说的就是我的一些比较重点的魔改的地方。这些魔改是在[上面提到的伪装LaTeX主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)及其[个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE)之外我自己摸索的。这里面最为重要的一个内容就是**标题级别前添加了自动序号**，这一点非常实用，大家可以直接去下载上述的样式主题进行学习。
 
 我没学过css啥的，下面要么是抄的，要么是<kbd>shift</kbd>+<kbd>F12</kbd>找出来的，如有疏漏和错误，烦请批评指正。
 
+### 标题自动序号
+
+参见[Auto Numbering for Headings](https://support.typora.io/Auto-Numbering/)。我在这贴一下代码。
+
+请注意，下面的代码可能并不完善，尽量使标题符合层级次序，否则会有bug。
+
+#### 文本内容中
+
+```css
+/** initialize css counter */
+#write {
+    counter-reset: h1
+}
+
+h1 {
+    counter-reset: h2
+}
+
+h2 {
+    counter-reset: h3
+}
+
+h3 {
+    counter-reset: h4
+}
+
+h4 {
+    counter-reset: h5
+}
+
+h5 {
+    counter-reset: h6
+}
+
+/** put counter result into headings */
+#write h1:before {
+    counter-increment: h1;
+    content: counter(h1) ". "
+}
+
+#write h2:before {
+    counter-increment: h2;
+    content: counter(h1) "." counter(h2) ". "
+}
+
+#write h3:before,
+h3.md-focus.md-heading:before /** override the default style for focused headings */ {
+    counter-increment: h3;
+    content: counter(h1) "." counter(h2) "." counter(h3) ". "
+}
+
+#write h4:before,
+h4.md-focus.md-heading:before {
+    counter-increment: h4;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "
+}
+
+#write h5:before,
+h5.md-focus.md-heading:before {
+    counter-increment: h5;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+}
+
+#write h6:before,
+h6.md-focus.md-heading:before {
+    counter-increment: h6;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
+}
+
+/** override the default style for focused headings */
+#write>h3.md-focus:before,
+#write>h4.md-focus:before,
+#write>h5.md-focus:before,
+#write>h6.md-focus:before,
+h3.md-focus:before,
+h4.md-focus:before,
+h5.md-focus:before,
+h6.md-focus:before {
+    color: inherit;
+    border: inherit;
+    border-radius: inherit;
+    position: inherit;
+    left:initial;
+    float: none;
+    top:initial;
+    font-size: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+    vertical-align: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+```
+
+#### TOC中
+
+```css
+/* No link underlines in TOC */
+.md-toc-inner {
+    text-decoration: none;
+}
+ 
+.md-toc-content {
+    counter-reset: h1toc
+}
+ 
+.md-toc-h1 {
+    margin-left: 0;
+    font-size: 1.5rem;
+    counter-reset: h2toc
+}
+ 
+.md-toc-h2 {
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    counter-reset: h3toc
+}
+ 
+.md-toc-h3 {
+    margin-left: 3rem;
+    font-size: .9rem;
+    counter-reset: h4toc
+}
+ 
+.md-toc-h4 {
+    margin-left: 4rem;
+    font-size: .85rem;
+    counter-reset: h5toc
+}
+ 
+.md-toc-h5 {
+    margin-left: 5rem;
+    font-size: .8rem;
+    counter-reset: h6toc
+}
+ 
+.md-toc-h6 {
+    margin-left: 6rem;
+    font-size: .75rem;
+}
+ 
+.md-toc-h1:before {
+    color: black;
+    counter-increment: h1toc;
+    content: counter(h1toc) ". "
+}
+ 
+.md-toc-h1 .md-toc-inner {
+    margin-left: 0;
+}
+ 
+.md-toc-h2:before {
+    color: black;
+    counter-increment: h2toc;
+    content: counter(h1toc) ". " counter(h2toc) ". "
+}
+ 
+.md-toc-h2 .md-toc-inner {
+    margin-left: 0;
+}
+ 
+.md-toc-h3:before {
+    color: black;
+    counter-increment: h3toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". "
+}
+ 
+.md-toc-h3 .md-toc-inner {
+    margin-left: 0;
+}
+ 
+.md-toc-h4:before {
+    color: black;
+    counter-increment: h4toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". "
+}
+ 
+.md-toc-h4 .md-toc-inner {
+    margin-left: 0;
+}
+ 
+.md-toc-h5:before {
+    color: black;
+    counter-increment: h5toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". "
+}
+ 
+.md-toc-h5 .md-toc-inner {
+    margin-left: 0;
+}
+ 
+.md-toc-h6:before {
+    color: black;
+    counter-increment: h6toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". " counter(h6toc) ". "
+}
+ 
+.md-toc-h6 .md-toc-inner {
+    margin-left: 0;
+}
+```
+
+来自http://pastebin.com/NYugSbXk。
+
+#### 侧边栏大纲中
+
+```css
+.sidebar-content {
+    counter-reset: h1
+}
+ 
+.outline-h1 {
+    counter-reset: h2
+}
+ 
+.outline-h2 {
+    counter-reset: h3
+}
+ 
+.outline-h3 {
+    counter-reset: h4
+}
+ 
+.outline-h4 {
+    counter-reset: h5
+}
+ 
+.outline-h5 {
+    counter-reset: h6
+}
+ 
+.outline-h1>.outline-item>.outline-label:before {
+    counter-increment: h1;
+    content: counter(h1) ". "
+}
+ 
+.outline-h2>.outline-item>.outline-label:before {
+    counter-increment: h2;
+    content: counter(h1) "." counter(h2) ". "
+}
+ 
+.outline-h3>.outline-item>.outline-label:before {
+    counter-increment: h3;
+    content: counter(h1) "." counter(h2) "." counter(h3) ". "
+}
+ 
+.outline-h4>.outline-item>.outline-label:before {
+    counter-increment: h4;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "
+}
+ 
+.outline-h5>.outline-item>.outline-label:before {
+    counter-increment: h5;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+}
+ 
+.outline-h6>.outline-item>.outline-label:before {
+    counter-increment: h6;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
+}
+```
+
+来自https://pastebin.com/XmYgBbaz。
+
 ### 列表
+
+#### 列表缩进（未明确，可能有误）
 
 ```css
 #write.first-line-indent li {
@@ -95,6 +368,43 @@
 添加了这一段之后：
 
 ![2.1.0_2](assets/2.1.0_2.png)
+
+#### 有序列表序号
+
+当然，列表的序号也是可以修改的，这里不再赘述，直接搬过来吧：
+
+![image-20230709102456760](assets/image-20230709102456760.png)
+
+Numbers (default style)		`ol {list-style-type: decimal;}`
+Numbers (with leading 0) 	`ol {list-style-type: decimal-leading-zero;}`
+Chinese Numbers 				`ol {list-style-type: cjk-ideographic;}`
+Hiragana 								`ol {list-style-type: hiragana;}`
+Katakana 								`ol {list-style-type: katakana;}`
+Alphabet 								`ol {list-style-type: lower-alpha;}`
+Alphabet (uppercase)			`ol {list-style-type: upper-alpha;}`
+Greek 									`ol {list-style-type: lower-greek;}`
+Roman numerals (lowercase) 	`ol {list-style-type: lower-roman;}`
+Roman numerals (uppercase) 	`ol {list-style-type: upper-roman;}`
+
+#### 无序列表序号
+
+![image-20230709102838431](assets/image-20230709102838431.png)
+
+#### 嵌套列表
+
+> ```css
+> ol {
+>   list-style-type: decimal;
+> }
+> 
+> ol ol {
+>  list-style-type: lower-alpha;
+> }
+> 
+> ol ol ol{
+>  list-style-type: lower-roman;
+> }
+> ```
 
 ### 下划线
 
@@ -496,15 +806,15 @@ $$
 
 
 $$
-\textbf{一得阁拉米}1\tag{f}\label{f}
+\textbf{一得阁拉米}1\label{flag}\tag{f}
 $$
-$a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$	这样整行，可以定义个新命令统合一下。但是不知为何不是很稳定。
+$a+y^3 \stackrel{\eqref{flag}\ref{flag}} = x^2$	这样整行，可以定义个新命令统合一下。但是不知为何不是很稳定。
 
 ```latex
 $$
-\textbf{一得阁拉米娜}\tag{f}\label{f}
+\textbf{一得阁拉米}1\label{flag}\tag{f}
 $$
-$a+y^3 \stackrel{\eqref{f}\ref{f}} = x^2$
+a+y^3 \stackrel{\eqref{flag}\ref{flag}} = x^2
 ```
 
 ### 宏定义
@@ -792,6 +1102,138 @@ $$
 
 以上来自于[MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference/15077#15077)、[在MathJax中显示长除法符号的方法)\~\~\~\~\~\~](https://qa.1r1g.com/sf/ask/1600744981/)。只能说，MathJax is *not* LaTeX，这效果一言难尽（知乎效果反而比Typora好......）。
 
+### 化学
+
+Typora支持[mhchem](https://mhchem.github.io/MathJax-mhchem/)书写化学表达式，同样不再赘述，这里只摘录一点使用例：
+
+$\ce{CO2 + C -> 2 CO}$
+$\ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}$
+$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$
+$\ce{H2O}$	$\ce{Sb2O3}$
+
+$\ce{H+}$  $\ce{CrO4^2-}$  $\ce{[AgCl2]-}$  $\ce{Y^99+}$  $\ce{Y^{99+}}$
+
+$\ce{2 H2O}$  $\ce{2H2O}$  $\ce{0.5 H2O}$  $\ce{1/2 H2O}$  $\ce{(1/2) H2O}$  $\ce{$n$ H2O}$
+
+$\ce{^{227}_{90}Th+}$	$\ce{^227_90Th+}$
+$\ce{^{0}_{-1}n^{-}}$	$\ce{^0_-1n-}$
+$\ce{H{}^3HO}$	$\ce{H^3HO}$
+
+$\ce{A -> B}$
+$\ce{A <- B}$
+$\ce{A <-> B}$
+$\ce{A <--> B}$
+$\ce{A <=> B}$
+$\ce{A <=>> B}$
+$\ce{A <<=> B}$
+$\ce{A ->[$x$][$x_i$] B}$
+
+$\ce{[\{(X2)3\}2]^3+}$
+$\ce{CH4 + 2 $\left( \ce{O2 + 79/21 N2} \right)$}$
+$\ce{H2(aq)}$	$\ce{CO3^2-_{(aq)}}$	$\ce{NaOH(aq,$\infty$)}$
+$\ce{ZnS($c$)}$	$\ce{ZnS(\ca$c$)}$
+
+$\ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x NH3 ^ + x H2O}$
+$\ce{[Pt(\eta^2-C2H4)Cl3]-}$
+$\ce{^40_18Ar + \gamma{} + \nu_e}$
+$\ce{Fe(CN)_{$\frac{6}{2}$}}$ 
+$\ce{$cis${-}[PtCl2(NH3)2]}$
+$\ce{{Gluconic Acid} + H2O2}$
+$\ce{A-B=C#D}$
+$\ce{A\bond{-}B\bond{=}C\bond{#}D}$
+$\ce{A\bond{1}B\bond{2}C\bond{3}D}$
+$\ce{A\bond{~--}B\bond{~=}C\bond{-~-}D}$
+$\ce{A\bond{...}B\bond{....}C}$
+$\ce{A\bond{->}B\bond{<-}C}$
+$\ce{KCr(SO4)2 * 12 H2O}$
+$\ce{Fe^{II}Fe^{III}2O4}$
+$\ce{NO^{(2.)-}}$
+$\ce{Li^x_{Li,1-2x}Mg^._{Li,x}$V$'_{Li,x}Cl^x_{Cl}}$
+$\ce{O''_{i,x}}$	$\ce{M^{..}_i}$	$\ce{$V$^{4'}_{Ti}}$
+$\ce{A + B}$	$\ce{A - B}$	$\ce{A = B}$	$\ce{A +- B}$	$\ce{A \pm B}$
+$\ce{A v B (v) -> B ^ B (^)}$
+$\ce{NO^*}$	$\ce{1s^2-N}$	$\ce{\ca Fe}$
+$\ce{Hg^2+ ->[I-]  $\underset{\mathrm{red}}{\ce{HgI2}}$  ->[I-]  $\underset{\mathrm{red}}{\ce{[Hg^{II}I4]^2-}}$}$
+
+```latex
+$\ce{CO2 + C -> 2 CO}$
+$\ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}$
+$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$
+$\ce{H2O}$	$\ce{Sb2O3}$
+
+$\ce{H+}$  $\ce{CrO4^2-}$  $\ce{[AgCl2]-}$  $\ce{Y^99+}$  $\ce{Y^{99+}}$
+
+$\ce{2 H2O}$  $\ce{2H2O}$  $\ce{0.5 H2O}$  $\ce{1/2 H2O}$  $\ce{(1/2) H2O}$  $\ce{$n$ H2O}$
+
+$\ce{^{227}_{90}Th+}$	$\ce{^227_90Th+}$
+$\ce{^{0}_{-1}n^{-}}$	$\ce{^0_-1n-}$
+$\ce{H{}^3HO}$	$\ce{H^3HO}$
+
+$\ce{A -> B}$
+$\ce{A <- B}$
+$\ce{A <-> B}$
+$\ce{A <--> B}$
+$\ce{A <=> B}$
+$\ce{A <=>> B}$
+$\ce{A <<=> B}$
+$\ce{A ->[$x$][$x_i$] B}$
+
+$\ce{[\{(X2)3\}2]^3+}$
+$\ce{CH4 + 2 $\left( \ce{O2 + 79/21 N2} \right)$}$
+$\ce{H2(aq)}$	$\ce{CO3^2-_{(aq)}}$	$\ce{NaOH(aq,$\infty$)}$
+$\ce{ZnS($c$)}$	$\ce{ZnS(\ca$c$)}$
+
+$\ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x NH3 ^ + x H2O}$
+$\ce{[Pt(\eta^2-C2H4)Cl3]-}$
+$\ce{^40_18Ar + \gamma{} + \nu_e}$
+$\ce{Fe(CN)_{$\frac{6}{2}$}}$ 
+$\ce{$cis${-}[PtCl2(NH3)2]}$
+$\ce{{Gluconic Acid} + H2O2}$
+$\ce{A-B=C#D}$
+$\ce{A\bond{-}B\bond{=}C\bond{#}D}$
+$\ce{A\bond{1}B\bond{2}C\bond{3}D}$
+$\ce{A\bond{~--}B\bond{~=}C\bond{-~-}D}$
+$\ce{A\bond{...}B\bond{....}C}$
+$\ce{A\bond{->}B\bond{<-}C}$
+$\ce{KCr(SO4)2 * 12 H2O}$
+$\ce{Fe^{II}Fe^{III}2O4}$
+$\ce{NO^{(2.)-}}$
+$\ce{Li^x_{Li,1-2x}Mg^._{Li,x}$V$'_{Li,x}Cl^x_{Cl}}$
+$\ce{O''_{i,x}}$	$\ce{M^{..}_i}$	$\ce{$V$^{4'}_{Ti}}$
+$\ce{A + B}$	$\ce{A - B}$	$\ce{A = B}$	$\ce{A +- B}$	$\ce{A \pm B}$
+$\ce{A v B (v) -> B ^ B (^)}$
+$\ce{NO^*}$	$\ce{1s^2-N}$	$\ce{\ca Fe}$
+$\ce{Hg^2+ ->[I-]  $\underset{\mathrm{red}}{\ce{HgI2}}$  ->[I-]  $\underset{\mathrm{red}}{\ce{[Hg^{II}I4]^2-}}$}$
+```
+
+从另一个角度而言，这也许可以用于表达化学之外的内容：$A\ce{->[{text above}][{text below}] }B$ $\ce{A ->[$x$][$x_i$] B}$
+
+> Unfortunately, MathJax [cannot stretch](https://github.com/mathjax/MathJax/issues/1491) `<-->`, `<=>`, `<=>>` and `<<=>` arrows properly. All the arrows do stretch in LaTeX and KaTeX.
+
+悲，不过其实即便是$\LaTeX$中，长箭头好像效果也不是那么好的样子呢，缩放导出的PDF时经常能看到拼接重合的部分。
+
+另外一个我想单列出来的内容是物理单位：
+
+$\pu{123 kJ}$	$\pu{123 mm2}$
+$\pu{123 J s}$	$\pu{123 J*s}$
+$\pu{123 kJ/mol}$	$\pu{123 kJ//mol}$
+$\pu{123 kJ mol-1}$	$\pu{123 kJ*mol-1}$
+$\pu{1.2e3 kJ}$	$\pu{1,2e3 kJ}$	$\pu{1.2E3 kJ}$	$\pu{1,2E3 kJ}$
+
+$\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
+
+```latex
+$\pu{123 kJ}$	$\pu{123 mm2}$
+$\pu{123 J s}$	$\pu{123 J*s}$
+$\pu{123 kJ/mol}$	$\pu{123 kJ//mol}$
+$\pu{123 kJ mol-1}$	$\pu{123 kJ*mol-1}$
+$\pu{1.2e3 kJ}$	$\pu{1,2e3 kJ}$	$\pu{1.2E3 kJ}$	$\pu{1,2E3 kJ}$
+
+$\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
+```
+
+这可不仅仅是在化学领域内使用了，简直方便的要死好吧！
+
 ## HTML
 
 以下HTML标签可直接内联显示在Typora中：
@@ -944,7 +1386,7 @@ $$
 <center id="tag3">tag3：自己动手试试吧！</center>
 ```
 
-然后使用锚点：[跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)（不好意思，HTML块无法参与跳转...）
+然后使用锚点：[跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)（不好意思，HTML块无法参与跳转...）（但是导出的PDF可以实现tag3的跳转，很神奇）
 
 ```markdown
 [跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)
@@ -1055,7 +1497,7 @@ kbd {
 
 ~~PDF~~：
 
-兄弟，不至于，有点过了，这种事情（包括上面三个）还是交给Obsidian这种编辑器来干吧。
+兄弟，不至于，有点过了，这种事情还是交给Obsidian这种编辑器来干吧。
 
 > No longer supported, you may try online file viewers instead, such as examples in  https://gist.github.com/tzmartin/1cf85dc3d975f94cfddc04bc0dd399be.
 
@@ -1101,7 +1543,23 @@ p.s. Typora的链接包含：
 - 参考链接
 - URL
 - 图片`![<pic title>](<addr> "<Optional title>")`
+- HTML的`<a>`标签
+- 引用外部文件
 
------
+（3）绘图
 
-恳请大家多多指教！
+参见[Draw Diagrams With Markdown](https://support.typora.io/Draw-Diagrams-With-Markdown/)，这可太帅了吧
+
+（4）[YAML Front Matter](https://jekyllrb.com/docs/front-matter/)
+
+学习YAML语法：[YAML 入门教程](https://www.runoob.com/w3cnote/yaml-intro.html)（仍是一种标记语言不是一种标记语言，乐）
+
+用于导出时添加元数据，可以对导出进行一定的设置（不会用，我溜了，哪位大佬要是会的话能不能教我两下子，或者推荐我一些文章也行）
+
+## 后记
+
+我校图书馆四楼东侧的书架上，在一堆“古籍”中间有一本且是唯一一本讲述md的书——《了不起的Markdown》。这本书全面讨论了md的语法、排版、可用的软件、工具，还讲到了如何撰写个人博客和Gitbook，可谓样样俱全，确实能做到“让更多的人更全面地了解并使用Markdown”。
+
+本来我也想将我的这篇文章写得更全面、更有深度，不过我个人也就只有“三分钟热度”，不到真正用上的场合就没有这个耐心去学下去。不过实际上我本来也永远写不全面，如果我要在这篇文章中追求All-in-one，那就走上歧路了。且不说我回头看过来，这篇文章粗糙不堪（标题都很别扭啊），如果真要写得长篇大论，那以后肯定要改吐了；如果再要填充什么进去的话，以这篇文章的组织结构，恐怕就快要噎死了吧。
+
+这篇文章有很多模糊不清的地方，也可能有诸多疏漏和错误，恳请大家多多指教！
