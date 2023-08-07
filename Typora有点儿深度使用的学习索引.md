@@ -53,10 +53,52 @@
 
 #### 有关Typora的样式修改
 
-- [Write Custom Theme_zh](https://theme.typora.io/doc/zh/Write-Custom-Theme/)：现在我会科学上网了，才想起来还有官方教程。
+- [CSS 教程](https://www.w3school.com.cn/css/index.asp)：改样式的话，肯定得学一点前端三剑客的知识啦~
+- [Write Custom Theme_zh](https://theme.typora.io/doc/zh/Write-Custom-Theme/)：官方教程
 - [Typora任意更改样式](https://blog.csdn.net/weixin_45817496/article/details/115867361)
 - [自定义Typora的样式(更新1 2021-7-14)](https://wap.sciencenet.cn/home.php?mod=space&uid=1213210&do=blog&id=1295427)
 - [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme)
+- [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
+
+#### 规范化Markdown写作参考
+
+- [《中文文案排版指北》](https://sspai.com/link?target=https%3A%2F%2Fgithub.com%2Fmzlogin%2Fchinese-copywriting-guidelines)、[少数派写作排版指南](https://sspai.com/post/37815)：写MD可以参照的较为通用的排版方式（加空格那种还是Obsidian加个插件方便一点）
+- [中华人民共和国国家标准GB/T15834-2011标点符号用法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=22EA6D162E4110E752259661E1A0D0A8)：为什么不参照国家的标准呢？（尽管我这篇文章也没遵循什么标准……）
+- [教育部：夹用英文的中文文本的标点符号用法（草案）](http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113092346124.pdf)
+- [【译】Google Markdown书写风格指南](https://www.jianshu.com/p/3beac9fd6496)
+- [《中文技术文档写作规范》](https://github.com/ruanyf/document-style-guide)
+- [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
+- [Markdown 简体中文与西文混排要点](https://github.com/selfteaching/markdown-writing-with-mixed-cn-en)
+- [W3C：中文排版需求 ](https://w3c.github.io/clreq/)
+
+---
+
+个人对直角引号与弯引号之争的看法
+
+个人坚决反对 **大陆地区** 除文科领域之外，在 **横排中文写作** 中使用 **直角引号**（除非迫不得已才使用），原因如下（靠前的原因优先级较高）：
+
+1. 输入不够便利，即便是在移动端也至少会多出一步操作；
+2. 在绝大部分领域、绝大部分日常生活当中，传统的直角引号并不常用。
+3. 直角引号的内引号『』、外引号「」对于较少接触者而言，并不容易辨别其正确的使用方式，从而出现乱用错用，甚至会出现有人不认识直角引号的情况。
+4. 2011年12月30日公布的最新国家标准《标点符号用法》规定，引号有双引号和单引号两种，在竖排文稿中，分别变为“﹃”“﹄”和“﹁”“﹂”。《标点符号用法》中没有“方引号（「」）”。规范比美丑重要。
+5. 横排使用直角引号不伦不类，且与其他标点风格不一致。
+6. 现代标点符号与所谓“方块字”几无关系。讨论标点符号与汉字之间的适配度是毫无意义的。
+7. 任何字体、平台与编辑器显示丑陋的中文引号，是字体、平台与编辑器的责任。
+   在 Unicode 中，中文和西文的弯引号使用相同码位而造成的问题，不应由用户来主动改变。
+   低分辨率屏幕显示不佳同样是低分辨率屏幕的责任。
+   识别前后引号，对于计算机领域相关人员而言是基本素养。
+8. 直角引号难以手写。这一点与第一点在追求便利上是一致的。
+9. 这里使用“坚决反对”而非“不建议”一词，虽然语气上更为强硬，与在此列举的部分规范冲突，但是本质上仍然是要追求中文写作规范的统一，甚至进一步规范在所有场景之下的中文写作（不强迫）。
+
+当然，要表示任何专有内容，或者是非正式场景时，个人也还是极其赞成保留直角引号的。平面设计当中两种引号我也都支持使用。
+
+这一争论为老生常谈，实在不宜再次提起。
+
+**参考内容：**
+
+- [中华人民共和国国家标准GB/T15834-2011标点符号用法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=22EA6D162E4110E752259661E1A0D0A8)
+- [知乎应如何尊重用户对弯引号的使用习惯？公共编辑区域应该使用哪种引号？](https://www.zhihu.com/question/20595340)（知乎的问题修改规范中，正式规范使用直角引号代替弯引号的行为，在我眼中是一种倒退。）
+- [如何输入直角引号（「」和『』 ）？](https://www.zhihu.com/question/19755746)（再怎么设置也很麻烦好吧。）
 
 #### 其他杂项
 
@@ -65,19 +107,49 @@
 - [typora图片自动左（右）对齐](https://www.cnblogs.com/charlotteForever/p/15823838.html)
 - [将图片内嵌入Markdown文档中](https://blog.csdn.net/u010158659/article/details/61197893)
 - [markdown中对齐方式怎样设定？比如怎样将文字右对齐？](https://www.zhihu.com/question/21160553)
-- [Typora自动编号功能——最强版](https://blog.csdn.net/qq_33159059/article/details/87910522)
-- [《中文文案排版指北》](https://sspai.com/link?target=https%3A%2F%2Fgithub.com%2Fmzlogin%2Fchinese-copywriting-guidelines)、[少数派写作排版指南](https://sspai.com/post/37815)：写MD可以参照的较为通用的排版方式（加空格那种还是Obsidian加个插件好用一点）（为什么都喜欢搞那个传统中文引号，又麻烦又没有意义）
 - [YAML 入门教程](https://www.runoob.com/w3cnote/yaml-intro.html)：学习YAML语法
 
 ### 工具网站
 
+#### 服务Markdown写作
+
 - [Mermaid~v9.3.0~ Live Editor](https://mermaid.live/edit#pako:eNptkLFugzAQhl_FubUGGQwBe0hVqUNTqVO3isWCIyCBnTq2Wop49xpot3g6-b7v193NUJsGQcINPz3qGp97dbFqrDQJ72noa4xOp4dX02lJXnAYDFlrSjrzRZRFMhn_eBfesVrpFSEdKktG_EPXXhTQaHNCcL_blJw3Y6ODdriPn0mLOJCLReUOQGFEO6q-CVvMq1CB63DECmQoG2yVH1wFlV4Cqrwz75OuQTrrkYK_Nsr9Lw2yVcMt_GLTO2Pf9stsB6JwVRrkDN8gMxHnQpSZKBgTaVHwjMIEMhGxyIoyK_jxyDlnrFwo_BgTYpM4LQRLRCqynJVlzviW97E110GWX5I8d18)：在线编辑各种Mermaid图，好像还是得自己手动敲代码......
-- [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/)：画表格的；
-- [Convert Excel to LaTeX Table](https://tableconvert.com/excel-to-latex)：把Excel转为$\LaTeX$表格的。
+- [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/)：画$\LaTeX$、HTML等的表格的；
+- [Convert Excel to LaTeX Table](https://tableconvert.com/excel-to-latex)：把Excel转为$\LaTeX$、HTML、SQL等表格的。
 - [quiver: a modern commutative diagram editor](https://q.uiver.app/)：画交换图的，Typora里面好像还不能画曲线，只能画直箭头什么的......
 - [在线LaTeX公式编辑器-编辑器](https://www.latexlive.com/##)
 - [论文工具](https://laorange.github.io/paper-assistant/)：可以处理从PDF复制的文本，去除多余换行，中英文标点转换，规范中文排版，功能强大
 - [Copy++](https://copyplusplus.tk)：提供一个软件，可以去除从PDF、CAJ复制的内容的换行与空格，还可以进行翻译，未来还有更多功能
+- [carbon](https://carbon.now.sh/)：代码美化
+
+#### Markdown其他应用
+
+**1. 微信公众号等推文**
+
+- [使用 Typora 一次性搞定公众号写作与排版](https://sspai.com/post/40524)
+- [微信 Markdown 编辑器 | Doocs 开源社区](https://doocs.github.io/md/)
+
+- [墨滴](https://product.mdnice.com/membership/product/)
+
+- [Md2All](http://md.aclickall.com/)
+
+- [Markdown Here](http://markdown-here.com/index.html)
+
+- [Markdown 在线编辑器· 开发者工具箱](https://markdown.devtool.tech/app)
+
+- [可能吧公众号排版器](https://knb.im/mp/)
+
+**2. 写PPT**
+
+- https://marp.app/：VSCode也有这个插件
+
+- https://sli.dev/
+
+
+**3. 写简历**
+
+- [Markdown简历](https://resume.mdnice.com/)：简洁且开源
+- [木及简历](https://www.mujicv.com/)：功能丰富，模板众多，年VIP不过两顿食堂午餐的价钱。[只用 Markdown 就写出好看的简历，在线简历应用闪亮登场！](https://mdnice.com/writing/2783144790f94c429f90379e7adf78d7#writing-title)
 
 ## 样式
 
@@ -363,17 +435,17 @@ h6.md-focus:before {
 
 上面这个代码控制的（好像）是列表的缩进距离，我对这个主题的列表缩进距离不太满意，就加了这么一段。未添加这一段之前是这样的：（后续的样式我也改了一点，但是不影响这段代码的效果）
 
-![2.1.0_1](assets/2.1.0_1.png)
+![2.1.0_1](img/2.1.0_1.png)
 
 添加了这一段之后：
 
-![2.1.0_2](assets/2.1.0_2.png)
+![2.1.0_2](img/2.1.0_2.png)
 
 #### 有序列表序号
 
 当然，列表的序号也是可以修改的，这里不再赘述，直接搬过来吧：
 
-![image-20230709102456760](assets/image-20230709102456760.png)
+![image-20230709102456760](img/image-20230709102456760.png)
 
 Numbers (default style)		`ol {list-style-type: decimal;}`
 Numbers (with leading 0) 	`ol {list-style-type: decimal-leading-zero;}`
@@ -388,7 +460,7 @@ Roman numerals (uppercase) 	`ol {list-style-type: upper-roman;}`
 
 #### 无序列表序号
 
-![image-20230709102838431](assets/image-20230709102838431.png)
+![image-20230709102838431](img/image-20230709102838431.png)
 
 #### 嵌套列表
 
@@ -422,7 +494,7 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 
 <u>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</u>
 
-![2.2.0_1](assets/2.2.0_1.png)
+![2.2.0_1](img/2.2.0_1.png)
 
 上图为`padding`那一行第三个数据调为0px和1px的区别，文字是对齐的。下划线的粗细设成1.5px是很对我的口味的。
 
@@ -443,7 +515,7 @@ u {/*处理下划线显示，对应快捷键Ctrl+U*/
 
 首先是标题的对齐，一二级整了个居中，如下图：
 
-![3.3](assets/3.3.png)
+![3.3](img/3.3.png)
 
 当然，大家也可以看到，最后一行那里，我把一二级标题下边的下划线搞掉了。
 
@@ -475,7 +547,7 @@ Subterranean Animism Phantasmagoria of Flower View Undefined Fantastic Object Ph
 
 就会有如下情况：
 
-![image-20230708163037387](assets/image-20230708163037387.png)
+![image-20230708163037387](img/image-20230708163037387.png)
 
 我其实是在**秀米**里面第一次遇见如此严重的情况的，当时我找到的解决办法是给文本框设置“**西文打断**”。然而当我在编辑md文档中一而再再而三遇到这个问题时，我的感受就是上面那被拉成了super面筋人的六个大字。
 
@@ -490,7 +562,7 @@ Subterranean Animism Phantasmagoria of Flower View Undefined Fantastic Object Ph
 
 效果就是这样了：
 
-![image-20230708163706478](assets/image-20230708163706478.png)
+![image-20230708163706478](img/image-20230708163706478.png)
 
 但是，但是，任何一个选择都要付出代价。单词打断所要付出的代价就是增加了阅读成本，被打断的单词阅读起来非常不直观。所以我最后还是选择左对齐、不打断单词了，返璞归真了属于是。
 
@@ -523,11 +595,11 @@ Subterranean Animism Phantasmagoria of Flower View Undefined Fantastic Object Ph
 
 但是目录分栏只对编辑器有效而不对导出的PDF有效，同样分页也无效。下图是预期效果。
 
-![image-20230119120227716](assets/image-20230119120227716.png)
+![image-20230119120227716](img/image-20230119120227716.png)
 
 所以，这个.md-toc-content到底该怎么修改？进入开发者模式（Shift+F12）可以看到：
 
-![image-20230119120142694](assets/image-20230119120142694.png)
+![image-20230119120142694](img/image-20230119120142694.png)
 
 难道......用列表生成的目录没法改样式？
 
@@ -582,7 +654,7 @@ h2 {
 
 最终更新：这个目录的跨页效果其实和图片跨页的效果一样糟糕。。。。
 
-![image-20230406230934207](assets/image-20230406230934207.png)
+![image-20230406230934207](img/image-20230406230934207.png)
 
 ### 尾注
 
@@ -613,7 +685,7 @@ h2 {
 
 标题的分页在Typora和Word中都算是比较简单的了，Word里面需要找一找，而Typora直接改一行代码就行了。
 
-![image-20230708165701470](assets/image-20230708165701470.png)
+![image-20230708165701470](img/image-20230708165701470.png)
 
 ```css
 h2 {
@@ -661,7 +733,7 @@ h2 {
 
 双栏排版不在当前考虑范围之内，这里需要注意的是**与下段同页**这个功能，这是我之前没考虑到的。
 
-![image-20230708170910446](assets/image-20230708170910446.png)
+![image-20230708170910446](img/image-20230708170910446.png)
 
 ---
 
@@ -707,7 +779,7 @@ ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？
 
 （1）在偏好设置中我一般这么整：
 
-![pic1](assets/pic1.png)
+![pic1](img/pic1.png)
 
 （2）YAML front matters 也能方便我们将图片放在md文件所在的同一文件夹下，这样我们添加图片的时候，直接写相对路径即可。
 
@@ -740,7 +812,7 @@ typora-root-url: ./assets/
 
 2023.1.18更新：上面一段所提到的方法仍然无法防止第二次打开文档时图片崩掉，所以我删去了开头的YAML front matters，添加图片时仍写相对路径，但修改了Typora的设置：
 
-![image-20230118173839602](assets/image-20230118173839602.png)
+![image-20230118173839602](img/image-20230118173839602.png)
 
 目前这样的操作能解决问题。
 
@@ -754,7 +826,7 @@ typora-root-url: ./assets/
 
 这个功能可以说是整篇文章中最铸币、最不具备实用性的功能了。说白了就是直接将图片存储在文档内，不用什么图床也不用什么本地存储，但是这样造成的后果也可谓是个灾难：源文件可读性极差，丑陋无比。如图，最右边的进度条基本全都是 Base64，这不是灾难还能是啥啊......
 
-![](assets/QQ截图20230408141614.png)
+![](img/QQ截图20230408141614.png)
 
 具体实现方法是：使用工具将图片转为 base64编码，用如下的形式插入文章中：
 
@@ -770,7 +842,7 @@ typora-root-url: ./assets/
 
 参见[Resize Images](https://support.typora.io/Resize-Image/)，对图片右键就能看得到：
 
-![image-20230708181015281](assets/image-20230708181015281.png)
+![image-20230708181015281](img/image-20230708181015281.png)
 
 然而缩放后的图片是无法在Obsidian中显示的，使用须谨慎。
 
@@ -800,7 +872,7 @@ $$
 $$
 ```
 
-无法显示边框（悲）
+Typora里无法显示边框（悲）
 
 ### 引用
 
@@ -822,6 +894,8 @@ a+y^3 \stackrel{\eqref{flag}\ref{flag}} = x^2
 $\def\ds{\displaystyle}
 \def\BOX#1{\fbox{$\ds #1$}}
 \def\pt#1{\phantom{#1}} $定义在左边，光标一放就显示了。
+
+这些可都是能在Typora里面实现的嗷
 
 ```latex
 $\def\ds{\displaystyle}
@@ -1024,7 +1098,7 @@ $$
 
 具体实例：
 
-![image-20230406231411031](assets/image-20230406231411031.png)
+![image-20230406231411031](img/image-20230406231411031.png)
 
 ```latex
 \require{enclose}
@@ -1338,6 +1412,21 @@ $\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
 
 居中：`<center>标题</center>`
 
+[HTML 样式](https://www.w3school.com.cn/html/html_styles.asp) 中提到：“有若干的标签和属性是被废弃的。被废弃（Deprecated）的意思是在未来版本的 HTML 和 XHTML 中将不支持这些标签和属性。”这其中就有`<center>`。因此我们可以使用`<h1 style="text-align:center">标题</h1>` 来替代。
+
+**应该避免使用下面这些标签和属性：**
+
+| 标签                     | 描述               |
+| ------------------------ | ------------------ |
+| `<center>`               | 定义居中的内容。   |
+| `<font>` 和 `<basefont>` | 定义 HTML 字体。   |
+| `<s>` 和 `<strike>`      | 定义删除线文本     |
+| `<u>`                    | 定义下划线文本     |
+| 属性                     | 描述               |
+| align                    | 定义文本的对齐方式 |
+| bgcolor                  | 定义背景颜色       |
+| color                    | 定义文本颜色       |
+
 左对齐（可以在Typora设置首行缩进时使用）：`<div style="text-align: left"> 敬礼！ </div>`
 
 右对齐：`<div style="text-align: right"> 2023年1月5日 </div>`
@@ -1346,7 +1435,7 @@ $\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
 
 <span style="font-size:2rem; background:yellow; color:red;">**Bang! Bang! Banki Banki Seiki Banki!**</span>
 
-![image-20230708205341794](assets/image-20230708205341794.png)
+![image-20230708205341794](img/image-20230708205341794.png)
 
 ```HTML
 <span style="font-size:2rem; background:yellow; color:red;">**Bang! Bang! Banki Banki Seiki Banki!**</span>
@@ -1356,11 +1445,9 @@ $\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
 
 ### 锚点
 
-锚点是Typora所支持的GitHub Flavored Markdown（简称GFM）扩展语法中的一个有意思的功能，这是个用于在文档中实现**跳转**的操作，非常实用。在导出的PDF里也能愉快地运行。
+锚点是Typora所支持的 [GitHub Flavored Markdown（简称GFM）](https://github.github.com/gfm/)扩展语法中的一个有意思的功能，这是个用于在文档中实现**跳转**的操作，非常实用。在导出的PDF里也能愉快地运行。
 
 锚点的语法是：`[<任意内容>](#锚点名)`
-
-
 
 （1）锚点名可以是标题：[比如你现在想回过头来看对齐方式这一节](#对齐方式)
 
@@ -1369,8 +1456,6 @@ $\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
 ```
 
 这可以用于跳转到任意标题处，进一步可以用来制作一份（可能）适用于其他编辑器的目录TOC（反正Obsidian不行）。
-
-
 
 （2）除跳转到标题之外，锚点还可以用于跳转到任意位置，这就需要借助HTML中的`id`属性了：
 
@@ -1386,13 +1471,11 @@ $\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
 <center id="tag3">tag3：自己动手试试吧！</center>
 ```
 
-然后使用锚点：[跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)（不好意思，HTML块无法参与跳转...）（但是导出的PDF可以实现tag3的跳转，很神奇）
+然后使用锚点：[跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)（不好意思，HTML块标签无法参与跳转...）（但是导出的PDF可以实现tag3的跳转，很神奇）
 
 ```markdown
 [跳转到tag1](#tag1)  [跳转到tag2](#tag2)  [跳转到tag3](#tag3)
 ```
-
-
 
 （3）同样可以使用HTML来设置锚点：<a href="#tag2">tag2</a> `<a href="#tag2">tag2</a>`
 
@@ -1410,7 +1493,7 @@ $\pu{114514.1919E-810 {}(inm*re)//cookie☆364364}$
 
 <ruby>後<rt>うしろ</rt>戸<rt>ど</rt>ノ</ruby><ruby>主<rt>ぬし</rt>也<rt>なり</rt></ruby>
 
-![image-20230708204750039](assets/image-20230708204750039.png)
+![image-20230708204750039](img/image-20230708204750039.png)
 
 ```
 <ruby>大家好啊，我是电棍<rt>欧内的手，好汉</rt> </ruby>
@@ -1436,7 +1519,7 @@ kbd {
 
 ### HTML实体
 
-参见[HTML entities](https://www.w3schools.com/html/html_entities.asp)。
+参见[HTML entities](https://www.w3schools.com/html/html_entities.asp)、 [HTML 实体符号参考手册](https://www.w3school.com.cn/tags/html_ref_entities.html)。
 
 > 一些字符在HTML中是保留的。如果您在文本中使用小于号（<）或大于号（>），浏览器可能会将它们与标签混淆。字符实体用于在HTML中显示保留字符。
 >
@@ -1451,8 +1534,6 @@ kbd {
 > ```
 >
 > 要显示小于号（<），我们必须写成：`&lt;`或`&#60;`
-
-
 
 （1）HTML实体可以用来表示分数和多种符号（当然人家建议直接用unicode）：`&frac14;` → ¼, `&#x1D517;` → 𝔗
 
@@ -1495,31 +1576,254 @@ kbd {
 
 <iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 
+<iframe height="400px" src="https://www.w3school.com.cn/html/html_iframe.asp"></iframe>
+
+```HTML
+<iframe height="400px" src="https://www.w3school.com.cn/html/html_iframe.asp"></iframe>
+```
+
+可以将一部分网站插入到Markdown文档中（知乎的网页好像不行）。
+
 ~~PDF~~：
 
 兄弟，不至于，有点过了，这种事情还是交给Obsidian这种编辑器来干吧。
 
 > No longer supported, you may try online file viewers instead, such as examples in  https://gist.github.com/tzmartin/1cf85dc3d975f94cfddc04bc0dd399be.
 
-### 其他玩法
+### 使用内部CSS更改样式
 
-隐藏文字：<span style="display:none">这里面的内容会在导出后隐藏</span>
+在 md 文档的任意 HTML 块中使用`<style>`标签包裹 CSS 代码，形成[内部 CSS](https://www.w3school.com.cn/css/css_shiyong.asp)，这样定义下来的样式对整篇 md 文档的任何内容（包括使用Markdown语法形成的内容）都会生效，只需成功定义一次即可。
+
+例如：
+
+![image-20230802003952489](img/image-20230802003952489.png)
+
+![image-20230802004032330](img/image-20230802004032330.png)
+
+```Markdown
+### 使用MD语法实现的三级标题
+
+<h3>使用HTML实现的三级标题</h3>
+<style>
+h3 {
+	font-size:2.5em;
+}
+</style>
+
+这是正常文字大小
+```
+
+**注意：**
+
+- `<style>` 标签必须紧密跟随其余任意HTML代码，即与其他标签之间不能有空行。
+- `<style>` 标签内部的CSS代码同样不能出现空行，否则HTML代码块就会断开。
+- 此外，单独只有`<style>` 标签的HTML代码块也不会生效（不过也不会出现在导出的PDF中），如下图：
+
+![image-20230802004653128](img/image-20230802004653128.png)
+
+在Typora的HTML代码块中，换行而不退出HTML代码块（或者说，软回车）的方式同样是 <kbd>Shift</kbd>+<kbd>Enter</kbd>。大家可以试一试硬软回车的区别。
+
+通过上述操作，我们可以在Markdown文档中实现很多很好玩的功能：
+
+#### 导航栏
+
+例子来源于：[CSS 水平导航栏](https://www.w3school.com.cn/css/css_navbar_horizontal.asp)
+
+![image-20230802005914099](img/image-20230802005914099.png)
+
+```html
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<style>
+<style>
+body {margin:0;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+a.active {
+  background-color: #4CAF50;
+}
+</style>
+```
+
+这一导航栏结合[锚点](#锚点)使用，可以**在md文档中**实现网页一般的导航栏效果，真正能起到导航作用。
+
+当然也可以看到，CSS 类选择器不能起作用，固定/粘性导航栏也无法实现（倒是在侧边栏实现了，难绷）。
+
+![image-20230802010752025](img/image-20230802010752025.png)
+
+我人都傻了
+
+另外，在导出为PDF之后，这个导航栏最关键的跳转功能就无法实现了，在PDF里面只能当花瓶。不过类选择器居然又复活了。
+
+![image-20230802010956939](img/image-20230802010956939.png)
+
+#### 制作标题层级中的“附录”
+
+在“样式篇”中，我们利用CSS样式给标题前添加了自动的序号。然而有些情况下，我们需要取消自动序号，或者转而使用另一种自动序号，比如“附录”内容。这时就可以使用HTML加上CSS类选择器，来实现同一Markdown文档中的第二种自动序号。（当然没有第三种了，原因后面讲）
+
+先来看效果（同一篇文档内）：
+
+![image-20230802013710069](img/image-20230802013710069.png)
+
+![image-20230802013731133](img/image-20230802013731133.png)
+
+再来看代码：
+
+```html
+<h2>二级标题3</h2>
+<style>
+    body {
+  		counter-reset: appendix;
+        /*额外设置一个“附录”计数器*/
+	}
+    div.md-htmlblock-container h2::before {
+        /*选择md-htmlblock-container类中的h2标签，这个类代表HTML块*/
+        /*标题实现方式有两种：Markdown语法和HTML，因此也最多支持两种自动序号。*/
+  		counter-increment: appendix !important; /*必须加!important*/
+  		content: "附录" counter(appendix, upper-alpha) !important;
+  		margin-right: 2rem !important;
+        /*标题前::before伪元素的内容为“附录”+大写字母的“附录”计数器值，在右边有两个字符的边距*/
+    }
+    @media print{
+        /*尝试在PDF中实现这一效果，但是失败了*/
+    	div.md-htmlblock-container h2::before {
+  			counter-increment: appendix !important;
+  			content: "附录" counter(appendix, upper-alpha) !important;
+  			margin-right: 2rem !important;
+    	}
+    }
+</style>
+```
+
+这种方法有几个缺憾：
+
+- 无法在侧边栏大纲和导出的PDF书签中出现HTML撰写的标题；
+- “附录A”自动序号样式也无法在导出的PDF中实现，仍然是样式中设定好的自动序号。
+
+#### 动画
+
+```HTML
+<center>asdasd</center>
+<style> 
+center {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 10;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+```
+
+![2023-08-06-17-57-04](img/2023-08-06-17-57-04.gif)
+
+但是不知为何，使用类选择器、ID选择器等等时，这个动画样式就无法实现了。[工具提示](https://www.w3school.com.cn/css/css_tooltip.asp)也同样有这个问题。
+
+彩蛋：
+
+![2023-08-06-18-06-18](img/2023-08-06-18-06-18.gif)
+
+### 其他
+
+#### 可能用的上的HTML应用
+
+（1）隐藏文字：<span style="display:none">这里面的内容会在导出后隐藏</span>
 
 ```HTML
 <span style="display:none">这里面的内容会在导出后隐藏</span>
 ```
 
-插入多张图片：
+（2）插入多张图片：
 
 ```html
-<center> <figure> <img src="assets/1.png" width="300px"/> <img src="assets/2.png" width="300px"/> </figure> </center>
+<center> <figure> <img src="img/1.png" width="300px"/> <img src="img/2.png" width="300px"/> </figure> </center>
 ```
 
-制作论文封面：
+以下代码更便于调节宽度，修改百分比即可。
 
-见[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)，这可老猛了。同理还可以替代那些用word表格组织起来的奇葩实验报告。
+```html
+<div style="margin:auto;"> <figure class="clearfix"> 
+<img src="img/1.png"
+style="box-sizing:border-box; float:left; width:50%; padding:4px;"/> 
+<img src="img/2.png"
+style="box-sizing:border-box; float:left; width:50%; padding:4px;"/> 
+</figure> </div> <style>.clearfix::after {content: "";clear: both; display: table;}</style>
+```
+
+（3）制作论文封面：
+
+见 [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)，这可老猛了。同理还可以替代那些用word表格组织起来的奇葩实验报告。
+
+（4）小型大写字母：
+
+<p style="font-variant: small-caps; font-weight:bold;">This is a paragraph</p>
+
+```HTML
+<p style="font-variant: small-caps; font-weight:bold;">This is a paragraph</p>
+```
+
+![image-20230807152905134](img/image-20230807152905134.png)
+
+可以用来写英文简历。
+
+`font-variant-caps` 这个属性无法使用。
+
+#### 不能实现的元素
+
+JavaScript：别想了。
+
+![image-20230804212508022](img/image-20230804212508022.png)
+
+```HTML
+<script type="text/javascript">
+document.write("Hello World!")
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+<p>不支持 JavaScript 的浏览器将显示 noscript 元素中的文本。</p>
+```
+
+同样的，Typora 也不支持 Flexbox。
+
+
 
 ## 杂项
+
+这里用来放置一些写不了太多、不方便归类到前面几个部分的内容。
 
 （1）装作首行缩进的字符：
 　　就在这一行的最前面捏，宽度为1em，URL 编码是`%E3%80%80`
@@ -1559,6 +1863,8 @@ p.s. Typora的链接包含：
 ## 后记
 
 我校图书馆四楼东侧的书架上，在一堆“古籍”中间有一本且是唯一一本讲述md的书——《了不起的Markdown》。这本书全面讨论了md的语法、排版、可用的软件、工具，还讲到了如何撰写个人博客和Gitbook，可谓样样俱全，确实能做到“让更多的人更全面地了解并使用Markdown”。
+
+![image-20230709141727464](img/image-20230709141727464.png)
 
 本来我也想将我的这篇文章写得更全面、更有深度，不过我个人也就只有“三分钟热度”，不到真正用上的场合就没有这个耐心去学下去。不过实际上我本来也永远写不全面，如果我要在这篇文章中追求All-in-one，那就走上歧路了。且不说我回头看过来，这篇文章粗糙不堪（标题都很别扭啊），如果真要写得长篇大论，那以后肯定要改吐了；如果再要填充什么进去的话，以这篇文章的组织结构，恐怕就快要噎死了吧。
 
