@@ -1756,7 +1756,7 @@ center {
 
 彩蛋：
 
-![2023-08-06-18-06-18](img/2023-08-06-18-06-18.gif)
+![image-20230808022344434](img/image-20230808022344434.png)
 
 ### 其他
 
@@ -1785,11 +1785,33 @@ style="box-sizing:border-box; float:left; width:50%; padding:4px;"/>
 </figure> </div> <style>.clearfix::after {content: "";clear: both; display: table;}</style>
 ```
 
-（3）制作论文封面：
+（3）图文绕排
+
+关键是利用图片的浮动，需要在标签中添加属性：`style="display: float; float: right; width: 15%;"`
+
+Typora提供了修改图片大小的右键菜单，这使得粘贴进去的图片可以轻易地转化成HTML格式，并顺带提供了一个style属性，只需修改这个属性值即可。
+
+例如：
+
+![image-20230822001155070](img/image-20230822001155070.png)
+
+```Markdown
+<img src="img/image-20230822001126099.png" alt="image-20230822001126099" style="display: float; float: right; width: 15%;" />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+```
+
+![image-20230822001334196](img/image-20230822001334196.png)
+
+```markdown
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus <img src="img/image-20230822001126099.png" alt="image-20230822001126099" style="display: float; float: left; width: 20%;" />et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+
+In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
+```
+
+（4）制作论文封面：
 
 见 [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)，这可老猛了。同理还可以替代那些用word表格组织起来的奇葩实验报告。
 
-（4）小型大写字母：
+（5）小型大写字母：
 
 <p style="font-variant: small-caps; font-weight:bold;">This is a paragraph</p>
 
