@@ -754,6 +754,7 @@ h2 {
     // All other options are the menu items 'text label' displayed from each typora menu
     "代码块": "Ctrl+Shift+W",
     "公式块": "Ctrl+Shift+E",
+    "任务列表": "Alt+Ctrl+]",
     "插入本地图片…": "Ctrl+R",
     "代码": "Ctrl+Shift+R",
     "PDF": "Ctrl+Shift+F",
@@ -770,8 +771,6 @@ h2 {
 ```
 
 前面的中文就是工具栏里的选项，后面的就是快捷键，注意按键的首字母大写，符号都是英文符号，最后一行不要加逗号（这句跟废话一样）。
-
-ps. 2023-1-4：我<kbd>插入本地图片…</kbd>的快捷键咋用不了了？我明明设置好了的啊？2023-1-5更新：从<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>改成了<kbd>Ctrl</kbd>+<kbd>R</kbd>，便可正常运行了，莫名其妙  2023-4-6更新：<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>R</kbd>分配给行间代码还是挺不错的~
 
 ## 图片
 
@@ -1584,6 +1583,38 @@ kbd {
 
 可以将一部分网站插入到Markdown文档中（知乎的网页好像不行）。
 
+`<object>`元素无法使用。
+
+```html
+<object data="https://www.w3school.com.cn/i/photo/tulip.jpg"></object>
+```
+
+`<embed> `元素可以使用。如果加载了图片的话，还可以打印在PDF中。
+
+<embed src="https://www.w3school.com.cn/i/photo/tulip.jpg">
+
+![image-20230822192621147](img/image-20230822192621147.png)
+
+```HTML
+<embed src="https://www.w3school.com.cn/i/photo/tulip.jpg">
+```
+
+加载HTML页面会导致无法导出PDF。
+
+**请不要尝试导出使用`<embed> `元素内嵌除图片外的任意内容！**我就是这么把软件搞坏的，其他任何md文件都无法导出为PDF，一直卡在“正在导出”动不了，日志文件（C:\Users\用户名\AppData\Roaming\Typora\typora.log）疯狂报错“unhandledRejection Error: Script failed to execute, this normally means an...”（忘了保存了），重启Print Spooler也无济于事，最后只好卸载再重新安装软件。
+
+![image-20230822193018971](img/image-20230822193018971.png)
+
+```HTML
+<embed width="100%" height="500px" src="https://www.w3school.com.cn//demo/html/table.html">
+```
+
+无法加载音频。
+
+```HTML
+<embed height="100" width="100" src="/i/horse.mp3" />
+```
+
 ~~PDF~~：
 
 兄弟，不至于，有点过了，这种事情还是交给Obsidian这种编辑器来干吧。
@@ -1777,11 +1808,12 @@ center {
 以下代码更便于调节宽度，修改百分比即可。
 
 ```html
-<div style="margin:auto;"> <figure class="clearfix"> 
-<img src="img/1.png"
-style="box-sizing:border-box; float:left; width:50%; padding:4px;"/> 
-<img src="img/2.png"
-style="box-sizing:border-box; float:left; width:50%; padding:4px;"/> 
+<div style="margin:auto;">
+<figure class="clearfix" style="position: relative;" > 
+<img src="img/1" alt="左图"
+style="box-sizing:border-box; float:left; width:50%; padding-right:4px;"/>
+<img src="img/2" alt="右图"
+style="box-sizing:border-box; float:right; width:50%; padding-left:4px;"/> 
 </figure> </div> <style>.clearfix::after {content: "";clear: both; display: table;}</style>
 ```
 
@@ -1807,6 +1839,44 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
 ```
 
+Code sheet: 
+
+```html
+<div style="margin:auto;">
+<figure class="clearfix" style="position: relative;" > 
+<img src="img/1" alt="左图"
+style="box-sizing:border-box; float:left; width:50%; padding-right:4px;"/>
+<img src="img/2" alt="右图"
+style="box-sizing:border-box; float:right; width:50%; padding-left:4px;"/> 
+</figure> </div> <style>.clearfix::after {content: "";clear: both; display: table;}</style>
+
+<div style="margin:auto;">
+<figure class="clearfix" style="position: relative;" > 
+<img src="img/1" alt="左图"
+style="box-sizing:border-box; float:left; width:48.5%; padding-right:4px;"/>
+<span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">→</span>
+<img src="img/2" alt="右图"
+style="box-sizing:border-box; float:right; width:48.5%; padding-left:4px;"/> 
+</figure> </div> <style>.clearfix::after {content: "";clear: both; display: table;}</style>
+
+<div style="margin:auto;">
+<figure class="clearfix" style="position: relative;" > 
+<img src="img/1" alt="左图"
+style="box-sizing:border-box; float:left; width:48.5%; padding-right:4px;"/>
+<span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">↔</span>
+<img src="img/2" alt="右图"
+style="box-sizing:border-box; float:right; width:48.5%; padding-left:4px;"/> 
+</figure> </div> <style>.clearfix::after {content: "";clear: both; display: table;}</style>
+
+display: float; float: left; width: 50%; margin: 0px 6px 6px 0px; 
+
+display: float; float: right; width: 50%; margin: 0px 0px 6px 6px; 
+
+width: 100%;
+
+width: 50%;
+```
+
 （4）制作论文封面：
 
 见 [Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)，这可老猛了。同理还可以替代那些用word表格组织起来的奇葩实验报告。
@@ -1825,6 +1895,22 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 
 `font-variant-caps` 这个属性无法使用。
 
+（6）内嵌SVG
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+  <polygon points="100,10 40,180 190,60 10,60 160,180"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+![image-20230822222724458](img/image-20230822222724458.png)
+
+
+```HTML
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+  <polygon points="100,10 40,180 190,60 10,60 160,180"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+```
+
 #### 不能实现的元素
 
 JavaScript：别想了。
@@ -1839,7 +1925,7 @@ document.write("Hello World!")
 <p>不支持 JavaScript 的浏览器将显示 noscript 元素中的文本。</p>
 ```
 
-同样的，Typora 也不支持 Flexbox。
+同样的，Typora 也不支持 Flexbox、Canvas。
 
 
 
