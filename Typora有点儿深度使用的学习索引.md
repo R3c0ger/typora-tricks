@@ -1789,6 +1789,25 @@ center {
 
 ![image-20230808022344434](img/image-20230808022344434.png)
 
+#### MathJax公式美化
+
+原本的行间公式是有上下间距的：
+
+![image-20230911165209890](img/image-20230911165209890.png)
+
+我感觉距离太大，就向文档中插入如下代码：
+
+```Html
+<p>随便写点啥</p>
+<style>.mathjax-block .md-math-container .MathJax {margin: 0px !important;}</style>
+```
+
+效果如下：
+
+![image-20230911165315473](img/image-20230911165315473.png)
+
+经试验，PDF中可以正常显示更改后的效果。
+
 ### 其他
 
 #### 可能用的上的HTML应用
