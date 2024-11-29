@@ -151,6 +151,11 @@
 - [Markdown简历](https://resume.mdnice.com/)：简洁且开源
 - [木及简历](https://www.mujicv.com/)：功能丰富，模板众多，年VIP不过两顿食堂午餐的价钱。[只用 Markdown 就写出好看的简历，在线简历应用闪亮登场！](https://mdnice.com/writing/2783144790f94c429f90379e7adf78d7#writing-title)
 
+### 插件
+
+- [VLOOK™ - Markdown 编辑器 Typora 的主题包和增强插件](https://madmaxchow.github.io/VLOOK/index.html)
+- [通过注入 js 代码，为 Typora 额外增加 4 个功能](https://www.appinn.com/typora-4-plugin/)
+
 ## 样式
 
 第一次接触修改主题样式是在我使用[Typora 伪装 LaTeX 中文样式主题](https://github.com/Keldos-Li/typora-latex-theme#typora-%E4%BC%AA%E8%A3%85-latex-%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98)时开始尝试的，这个样式目前小问题有点多，但是不耽误使用，而且还是很好看的，反正我已经star了。不过后来我还是换回了github主题，但是我也稍微添加了一些修改，以适应我的个人需求。
